@@ -55,7 +55,7 @@ acra = "5.13.1"
 adapterdelegates4 = "4.3.2"
 #noinspection GradleDependency Commons IO > 2.5 uses java.nio.file, which requires desugaring
 commonsIo = "2.6"
-commonsNet = "3.6"
+commonsNet = "3.12.0"
 bouncycastle = "1.83"
 #noinspection NewerVersionAvailable upgrade to 3.6.1 failed BonjourManagerTest
 jmdns = "3.5.5"
