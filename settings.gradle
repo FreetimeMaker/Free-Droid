@@ -5,6 +5,10 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
 
 include ':app'
 include ':libs:core'
@@ -13,4 +17,3 @@ include ':libs:download'
 include ':libs:index'
 include ':libs:database'
 
-include ':legacy'
