@@ -72,7 +72,7 @@ kotlin {
 android {
     namespace = "org.fdroid.index"
     @Suppress("ktlint:standard:chain-method-continuation")
-    compileSdk = libs.versions.compileSdk.get().toInt()
+    compileSdk = 36
     defaultConfig {
         minSdk = 21
         consumerProguardFiles("consumer-rules.pro")

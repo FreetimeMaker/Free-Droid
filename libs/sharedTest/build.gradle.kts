@@ -7,7 +7,7 @@ plugins {
 android {
     namespace = "org.fdroid.test"
     @Suppress("ktlint:standard:chain-method-continuation")
-    compileSdk = libs.versions.compileSdk.get().toInt()
+    compileSdk = 36
     defaultConfig {
         minSdk = 21
     }

@@ -11,7 +11,7 @@ plugins {
 
 android {
     namespace = "com.freetime.freedroid"
-    compileSdk = libs.versions.compileSdk.get().toInt()
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.freetime.freedroid"
