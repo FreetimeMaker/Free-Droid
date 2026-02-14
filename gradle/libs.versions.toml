@@ -56,6 +56,8 @@ guardianprojectPanic = "1.0"
 acra = "5.13.1"
 adapterdelegates4 = "4.3.2"
 #noinspection GradleDependency Commons IO > 2.5 uses java.nio.file, which requires desugaring
+commonsIo = "2.6"
+commonsNet = "3.12.0"
 commonsIo = "2.21.0"
 commonsNet = "3.6"
 bouncycastle = "1.83"
