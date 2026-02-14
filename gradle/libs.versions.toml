@@ -84,7 +84,7 @@ androidxTestUiautomator = "2.3.0"
 androidxTestMonitor = "1.8.0"
 mockitoCore = "5.1.1"
 hamcrest = "3.0"
-goncalossilvaResources = "0.2.1"
+goncalossilvaResources = "0.15.0"
 turbine = "1.2.1"
 json = "20220320"
 
