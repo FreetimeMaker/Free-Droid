@@ -38,7 +38,7 @@ androidxSwipeRefreshLayout = "1.2.0"
 androidxVectordrawable = "1.2.0"
 androidxGridlayout = "1.1.0"
 androidxComposeBom = "2026.01.01"
-androidxActivityCompose = "1.12.3"
+androidxActivityCompose = "1.12.4"
 accompanistDrawablepainter = "0.37.3"
 
 # navigation3
