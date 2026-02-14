@@ -73,7 +73,7 @@ logbackClassic = "1.5.27"
 logbackAndroid = "3.0.0"
 
 junit = "4.13.2"
-mockk = "1.14.6"
+mockk = "1.14.9"
 robolectric = "4.16.1"
 androidxTestCore = "1.7.0"
 androidxTestRunner = "1.7.0"
