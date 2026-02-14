@@ -3,8 +3,8 @@ package com.freetime.freedroid.download
 import android.net.Uri
 import androidx.core.net.toUri
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.IndexFile
-import com.freetime.freedroid.database.Repository
+import org.fdroid.IndexFile
+import org.fdroid.database.Repository
 
 fun IndexFile.getImageModel(repository: Repository?, proxyConfig: ProxyConfig?): Any? {
     if (repository == null) return null

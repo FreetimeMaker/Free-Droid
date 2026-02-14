@@ -6,15 +6,15 @@ import android.content.Intent.ACTION_SEND
 import android.content.Intent.EXTRA_TEXT
 import android.graphics.Bitmap
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.Mirror
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.repo.RepoUpdateProgress
-import com.freetime.freedroid.repo.RepoUpdateState
-import com.freetime.freedroid.ui.utils.flagEmoji
-import com.freetime.freedroid.ui.utils.generateQrBitmap
-import com.freetime.freedroid.ui.utils.startActivitySafe
+import org.fdroid.R
+import org.fdroid.database.Repository
+import org.fdroid.download.Mirror
+import org.fdroid.download.NetworkState
+import org.fdroid.repo.RepoUpdateProgress
+import org.fdroid.repo.RepoUpdateState
+import org.fdroid.ui.utils.flagEmoji
+import org.fdroid.ui.utils.generateQrBitmap
+import org.fdroid.ui.utils.startActivitySafe
 
 interface RepoDetailsInfo {
     val model: RepoDetailsModel

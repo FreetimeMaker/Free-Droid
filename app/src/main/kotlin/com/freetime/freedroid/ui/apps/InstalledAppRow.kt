@@ -18,14 +18,14 @@ import androidx.compose.ui.semantics.hideFromAccessibility
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.AppIssue
-import com.freetime.freedroid.database.NoCompatibleSigner
-import com.freetime.freedroid.database.UpdateInOtherRepo
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.AsyncShimmerImage
-import com.freetime.freedroid.ui.utils.BadgeIcon
-import com.freetime.freedroid.ui.utils.Names
+import org.fdroid.R
+import org.fdroid.database.AppIssue
+import org.fdroid.database.NoCompatibleSigner
+import org.fdroid.database.UpdateInOtherRepo
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.AsyncShimmerImage
+import org.fdroid.ui.utils.BadgeIcon
+import org.fdroid.ui.utils.Names
 
 @Composable
 fun InstalledAppRow(

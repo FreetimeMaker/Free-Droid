@@ -6,7 +6,7 @@ import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.freetime.freedroid.R
+import org.fdroid.R
 
 @Composable
 fun ExpandIconChevron(isExpanded: Boolean) {

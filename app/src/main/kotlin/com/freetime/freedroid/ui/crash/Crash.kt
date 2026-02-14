@@ -23,9 +23,9 @@ import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import kotlinx.coroutines.launch
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.utils.getLogName
+import org.fdroid.R
+import org.fdroid.ui.FDroidContent
+import org.fdroid.utils.getLogName
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)

@@ -23,18 +23,18 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import mu.KotlinLogging
-import com.freetime.freedroid.database.FDroidDatabase
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.Mirror
-import com.freetime.freedroid.download.NetworkMonitor
-import com.freetime.freedroid.index.RepoManager
-import com.freetime.freedroid.repo.RepoUpdateManager
-import com.freetime.freedroid.repo.RepoUpdateWorker
-import com.freetime.freedroid.settings.OnboardingManager
-import com.freetime.freedroid.settings.SettingsManager
-import com.freetime.freedroid.ui.repositories.details.ArchiveState.UNKNOWN
-import com.freetime.freedroid.updates.UpdatesManager
-import com.freetime.freedroid.utils.IoDispatcher
+import org.fdroid.database.FDroidDatabase
+import org.fdroid.database.Repository
+import org.fdroid.download.Mirror
+import org.fdroid.download.NetworkMonitor
+import org.fdroid.index.RepoManager
+import org.fdroid.repo.RepoUpdateManager
+import org.fdroid.repo.RepoUpdateWorker
+import org.fdroid.settings.OnboardingManager
+import org.fdroid.settings.SettingsManager
+import org.fdroid.ui.repositories.details.ArchiveState.UNKNOWN
+import org.fdroid.updates.UpdatesManager
+import org.fdroid.utils.IoDispatcher
 
 @HiltViewModel(assistedFactory = RepoDetailsViewModel.Factory::class)
 class RepoDetailsViewModel @AssistedInject constructor(

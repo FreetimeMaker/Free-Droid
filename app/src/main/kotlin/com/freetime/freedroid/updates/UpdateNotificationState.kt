@@ -1,7 +1,7 @@
 package com.freetime.freedroid.updates
 
 import android.content.Context
-import com.freetime.freedroid.R
+import org.fdroid.R
 
 data class UpdateNotificationState(
     private val updates: List<AppUpdate>,

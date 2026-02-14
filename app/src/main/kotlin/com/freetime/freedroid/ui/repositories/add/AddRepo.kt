@@ -18,17 +18,17 @@ import androidx.core.os.LocaleListCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import io.ktor.client.engine.ProxyConfig
 import kotlinx.coroutines.flow.StateFlow
-import com.freetime.freedroid.R
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.index.IndexUpdateResult
-import com.freetime.freedroid.repo.AddRepoError
-import com.freetime.freedroid.repo.AddRepoState
-import com.freetime.freedroid.repo.Added
-import com.freetime.freedroid.repo.Adding
-import com.freetime.freedroid.repo.FetchResult
-import com.freetime.freedroid.repo.Fetching
-import com.freetime.freedroid.repo.None
-import com.freetime.freedroid.repo.RepoUpdateWorker
+import org.fdroid.R
+import org.fdroid.download.NetworkState
+import org.fdroid.index.IndexUpdateResult
+import org.fdroid.repo.AddRepoError
+import org.fdroid.repo.AddRepoState
+import org.fdroid.repo.Added
+import org.fdroid.repo.Adding
+import org.fdroid.repo.FetchResult
+import org.fdroid.repo.Fetching
+import org.fdroid.repo.None
+import org.fdroid.repo.RepoUpdateWorker
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -11,10 +11,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation3.runtime.NavKey
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.categories.CategoryList
-import com.freetime.freedroid.ui.lists.AppListType
-import com.freetime.freedroid.ui.search.AppsSearch
+import org.fdroid.R
+import org.fdroid.ui.categories.CategoryList
+import org.fdroid.ui.lists.AppListType
+import org.fdroid.ui.search.AppsSearch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

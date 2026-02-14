@@ -12,8 +12,8 @@ import androidx.compose.ui.Alignment.Companion.Center
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.ui.AboutContent
-import com.freetime.freedroid.ui.FDroidContent
+import org.fdroid.ui.AboutContent
+import org.fdroid.ui.FDroidContent
 
 @Composable
 fun NoAppSelected() {

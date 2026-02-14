@@ -19,17 +19,17 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.os.LocaleListCompat
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.MinimalApp
-import com.freetime.freedroid.download.getImageModel
-import com.freetime.freedroid.index.v2.FileV2
-import com.freetime.freedroid.repo.FetchResult.IsNewRepoAndNewMirror
-import com.freetime.freedroid.repo.FetchResult.IsNewRepository
-import com.freetime.freedroid.repo.Fetching
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.lists.AppListItem
-import com.freetime.freedroid.ui.lists.AppListRow
-import com.freetime.freedroid.ui.utils.getRepository
+import org.fdroid.R
+import org.fdroid.database.MinimalApp
+import org.fdroid.download.getImageModel
+import org.fdroid.index.v2.FileV2
+import org.fdroid.repo.FetchResult.IsNewRepoAndNewMirror
+import org.fdroid.repo.FetchResult.IsNewRepository
+import org.fdroid.repo.Fetching
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.lists.AppListItem
+import org.fdroid.ui.lists.AppListRow
+import org.fdroid.ui.utils.getRepository
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

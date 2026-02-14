@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.ui.FDroidContent
+import org.fdroid.ui.FDroidContent
 
 val PackageVariant: ImageVector
     get() {

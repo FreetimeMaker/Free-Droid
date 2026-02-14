@@ -14,21 +14,21 @@ import androidx.lifecycle.asFlow
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.withContext
-import com.freetime.freedroid.UpdateChecker
-import com.freetime.freedroid.database.App
-import com.freetime.freedroid.database.AppPrefs
-import com.freetime.freedroid.database.AppVersion
-import com.freetime.freedroid.database.FDroidDatabase
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.index.RepoManager
-import com.freetime.freedroid.install.ApkFileProvider
-import com.freetime.freedroid.install.AppInstallManager
-import com.freetime.freedroid.install.InstallState
-import com.freetime.freedroid.repo.RepoPreLoader
-import com.freetime.freedroid.settings.SettingsManager
-import com.freetime.freedroid.ui.apps.AppWithIssueItem
-import com.freetime.freedroid.utils.sha256
+import org.fdroid.UpdateChecker
+import org.fdroid.database.App
+import org.fdroid.database.AppPrefs
+import org.fdroid.database.AppVersion
+import org.fdroid.database.FDroidDatabase
+import org.fdroid.database.Repository
+import org.fdroid.download.NetworkState
+import org.fdroid.index.RepoManager
+import org.fdroid.install.ApkFileProvider
+import org.fdroid.install.AppInstallManager
+import org.fdroid.install.InstallState
+import org.fdroid.repo.RepoPreLoader
+import org.fdroid.settings.SettingsManager
+import org.fdroid.ui.apps.AppWithIssueItem
+import org.fdroid.utils.sha256
 
 private const val TAG = "DetailsPresenter"
 

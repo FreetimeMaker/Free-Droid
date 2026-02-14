@@ -1,7 +1,7 @@
 package com.freetime.freedroid.download
 
 import android.net.Uri
-import com.freetime.freedroid.IndexFile
+import org.fdroid.IndexFile
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.InputStream

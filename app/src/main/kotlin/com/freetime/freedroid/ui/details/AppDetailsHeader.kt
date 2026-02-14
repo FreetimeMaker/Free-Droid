@@ -57,17 +57,17 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import coil3.compose.AsyncImage
-import com.freetime.freedroid.R
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.install.InstallState
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.AsyncShimmerImage
-import com.freetime.freedroid.ui.utils.InstalledBadge
-import com.freetime.freedroid.ui.utils.MeteredConnectionDialog
-import com.freetime.freedroid.ui.utils.OfflineBar
-import com.freetime.freedroid.ui.utils.asRelativeTimeString
-import com.freetime.freedroid.ui.utils.startActivitySafe
-import com.freetime.freedroid.ui.utils.testApp
+import org.fdroid.R
+import org.fdroid.download.NetworkState
+import org.fdroid.install.InstallState
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.AsyncShimmerImage
+import org.fdroid.ui.utils.InstalledBadge
+import org.fdroid.ui.utils.MeteredConnectionDialog
+import org.fdroid.ui.utils.OfflineBar
+import org.fdroid.ui.utils.asRelativeTimeString
+import org.fdroid.ui.utils.startActivitySafe
+import org.fdroid.ui.utils.testApp
 
 @Composable
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

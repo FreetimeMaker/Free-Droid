@@ -17,14 +17,14 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import mu.KotlinLogging
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.NetworkMonitor
-import com.freetime.freedroid.index.RepoManager
-import com.freetime.freedroid.repo.RepoUpdateWorker
-import com.freetime.freedroid.settings.OnboardingManager
-import com.freetime.freedroid.settings.SettingsManager
-import com.freetime.freedroid.updates.UpdatesManager
-import com.freetime.freedroid.utils.IoDispatcher
+import org.fdroid.database.Repository
+import org.fdroid.download.NetworkMonitor
+import org.fdroid.index.RepoManager
+import org.fdroid.repo.RepoUpdateWorker
+import org.fdroid.settings.OnboardingManager
+import org.fdroid.settings.SettingsManager
+import org.fdroid.updates.UpdatesManager
+import org.fdroid.utils.IoDispatcher
 import javax.inject.Inject
 
 @HiltViewModel

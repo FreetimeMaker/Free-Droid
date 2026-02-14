@@ -31,8 +31,8 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation3.runtime.NavKey
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.FreeDroidContent
+import org.fdroid.R
+import org.fdroid.ui.FreeDroidContent
 
 @Composable
 fun BottomBar(

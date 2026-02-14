@@ -7,14 +7,14 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation3.runtime.EntryProviderScope
 import androidx.navigation3.runtime.NavKey
-import com.freetime.freedroid.ui.lists.AppListType
-import com.freetime.freedroid.ui.navigation.NavigationKey
-import com.freetime.freedroid.ui.navigation.Navigator
-import com.freetime.freedroid.ui.repositories.add.AddRepo
-import com.freetime.freedroid.ui.repositories.add.AddRepoViewModel
-import com.freetime.freedroid.ui.repositories.details.RepoDetails
-import com.freetime.freedroid.ui.repositories.details.RepoDetailsInfo
-import com.freetime.freedroid.ui.repositories.details.RepoDetailsViewModel
+import org.fdroid.ui.lists.AppListType
+import org.fdroid.ui.navigation.NavigationKey
+import org.fdroid.ui.navigation.Navigator
+import org.fdroid.ui.repositories.add.AddRepo
+import org.fdroid.ui.repositories.add.AddRepoViewModel
+import org.fdroid.ui.repositories.details.RepoDetails
+import org.fdroid.ui.repositories.details.RepoDetailsInfo
+import org.fdroid.ui.repositories.details.RepoDetailsViewModel
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 fun EntryProviderScope<NavKey>.repoEntry(

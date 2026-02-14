@@ -17,7 +17,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import mu.KotlinLogging
-import com.freetime.freedroid.utils.IoDispatcher
+import org.fdroid.utils.IoDispatcher
 import javax.inject.Inject
 import javax.inject.Singleton
 

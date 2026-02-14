@@ -6,9 +6,9 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation3.runtime.EntryProviderScope
 import androidx.navigation3.runtime.NavKey
-import com.freetime.freedroid.ui.details.NoAppSelected
-import com.freetime.freedroid.ui.navigation.NavigationKey
-import com.freetime.freedroid.ui.navigation.Navigator
+import org.fdroid.ui.details.NoAppSelected
+import org.fdroid.ui.navigation.NavigationKey
+import org.fdroid.ui.navigation.Navigator
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 fun EntryProviderScope<NavKey>.discoverEntry(

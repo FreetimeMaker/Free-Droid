@@ -7,9 +7,9 @@ import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.decodeFromStream
-import com.freetime.freedroid.database.FDroidDatabase
-import com.freetime.freedroid.database.InitialRepository
-import com.freetime.freedroid.database.RepositoryDao
+import org.fdroid.database.FDroidDatabase
+import org.fdroid.database.InitialRepository
+import org.fdroid.database.RepositoryDao
 import java.io.File
 import javax.inject.Inject
 import javax.inject.Singleton

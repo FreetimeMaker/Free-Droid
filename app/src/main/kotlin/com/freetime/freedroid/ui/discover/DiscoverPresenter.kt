@@ -6,11 +6,11 @@ import androidx.compose.runtime.collectAsState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.repo.RepoUpdateState
-import com.freetime.freedroid.ui.categories.CategoryGroup
-import com.freetime.freedroid.ui.categories.CategoryItem
+import org.fdroid.database.Repository
+import org.fdroid.download.NetworkState
+import org.fdroid.repo.RepoUpdateState
+import org.fdroid.ui.categories.CategoryGroup
+import org.fdroid.ui.categories.CategoryItem
 
 @Composable
 fun DiscoverPresenter(

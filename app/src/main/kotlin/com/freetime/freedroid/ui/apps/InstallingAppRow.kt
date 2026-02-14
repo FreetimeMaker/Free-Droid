@@ -19,10 +19,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.install.InstallState
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.AsyncShimmerImage
+import org.fdroid.R
+import org.fdroid.install.InstallState
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.AsyncShimmerImage
 
 @Composable
 fun InstallingAppRow(

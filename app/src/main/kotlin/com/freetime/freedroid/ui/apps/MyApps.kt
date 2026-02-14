@@ -39,16 +39,16 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle.State.STARTED
 import androidx.lifecycle.compose.LocalLifecycleOwner
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.AppListSortOrder
-import com.freetime.freedroid.database.AppListSortOrder.LAST_UPDATED
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.install.InstallConfirmationState
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.search.TopSearchBar
-import com.freetime.freedroid.ui.utils.BigLoadingIndicator
-import com.freetime.freedroid.ui.utils.getMyAppsInfo
-import com.freetime.freedroid.ui.utils.myAppsModel
+import org.fdroid.R
+import org.fdroid.database.AppListSortOrder
+import org.fdroid.database.AppListSortOrder.LAST_UPDATED
+import org.fdroid.download.NetworkState
+import org.fdroid.install.InstallConfirmationState
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.search.TopSearchBar
+import org.fdroid.ui.utils.BigLoadingIndicator
+import org.fdroid.ui.utils.getMyAppsInfo
+import org.fdroid.ui.utils.myAppsModel
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

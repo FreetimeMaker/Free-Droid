@@ -25,18 +25,18 @@ import androidx.compose.ui.tooling.preview.datasource.LoremIpsum
 import androidx.compose.ui.unit.dp
 import androidx.core.os.LocaleListCompat
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.R
-import com.freetime.freedroid.repo.FetchResult.IsExistingMirror
-import com.freetime.freedroid.repo.FetchResult.IsExistingRepository
-import com.freetime.freedroid.repo.FetchResult.IsNewMirror
-import com.freetime.freedroid.repo.FetchResult.IsNewRepoAndNewMirror
-import com.freetime.freedroid.repo.FetchResult.IsNewRepository
-import com.freetime.freedroid.repo.Fetching
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.repositories.RepoIcon
-import com.freetime.freedroid.ui.utils.FDroidButton
-import com.freetime.freedroid.ui.utils.asRelativeTimeString
-import com.freetime.freedroid.ui.utils.getRepository
+import org.fdroid.R
+import org.fdroid.repo.FetchResult.IsExistingMirror
+import org.fdroid.repo.FetchResult.IsExistingRepository
+import org.fdroid.repo.FetchResult.IsNewMirror
+import org.fdroid.repo.FetchResult.IsNewRepoAndNewMirror
+import org.fdroid.repo.FetchResult.IsNewRepository
+import org.fdroid.repo.Fetching
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.repositories.RepoIcon
+import org.fdroid.ui.utils.FDroidButton
+import org.fdroid.ui.utils.asRelativeTimeString
+import org.fdroid.ui.utils.getRepository
 
 @Composable
 fun RepoPreviewHeader(

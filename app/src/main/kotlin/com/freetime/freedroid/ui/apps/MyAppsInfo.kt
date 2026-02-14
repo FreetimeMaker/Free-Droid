@@ -1,8 +1,8 @@
 package com.freetime.freedroid.ui.apps
 
-import com.freetime.freedroid.database.AppListSortOrder
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.install.InstallConfirmationState
+import org.fdroid.database.AppListSortOrder
+import org.fdroid.download.NetworkState
+import org.fdroid.install.InstallConfirmationState
 
 interface MyAppsInfo {
     val model: MyAppsModel

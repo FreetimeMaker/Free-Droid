@@ -27,21 +27,21 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import mu.KotlinLogging
-import com.freetime.freedroid.UpdateChecker
-import com.freetime.freedroid.database.AppMetadata
-import com.freetime.freedroid.database.AppVersion
-import com.freetime.freedroid.database.FDroidDatabase
-import com.freetime.freedroid.download.DownloadRequest
-import com.freetime.freedroid.download.NetworkMonitor
-import com.freetime.freedroid.getCacheKey
-import com.freetime.freedroid.index.RELEASE_CHANNEL_BETA
-import com.freetime.freedroid.index.RepoManager
-import com.freetime.freedroid.install.AppInstallManager
-import com.freetime.freedroid.install.InstallState
-import com.freetime.freedroid.repo.RepoPreLoader
-import com.freetime.freedroid.settings.SettingsManager
-import com.freetime.freedroid.updates.UpdatesManager
-import com.freetime.freedroid.utils.IoDispatcher
+import org.fdroid.UpdateChecker
+import org.fdroid.database.AppMetadata
+import org.fdroid.database.AppVersion
+import org.fdroid.database.FDroidDatabase
+import org.fdroid.download.DownloadRequest
+import org.fdroid.download.NetworkMonitor
+import org.fdroid.getCacheKey
+import org.fdroid.index.RELEASE_CHANNEL_BETA
+import org.fdroid.index.RepoManager
+import org.fdroid.install.AppInstallManager
+import org.fdroid.install.InstallState
+import org.fdroid.repo.RepoPreLoader
+import org.fdroid.settings.SettingsManager
+import org.fdroid.updates.UpdatesManager
+import org.fdroid.utils.IoDispatcher
 
 @HiltViewModel(assistedFactory = AppDetailsViewModel.Factory::class)
 class AppDetailsViewModel @AssistedInject constructor(

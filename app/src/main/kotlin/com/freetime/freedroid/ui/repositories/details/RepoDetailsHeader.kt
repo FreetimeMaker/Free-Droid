@@ -28,14 +28,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.os.LocaleListCompat
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.repositories.RepoIcon
-import com.freetime.freedroid.ui.utils.FDroidOutlineButton
-import com.freetime.freedroid.ui.utils.addressForUi
-import com.freetime.freedroid.ui.utils.asRelativeTimeString
-import com.freetime.freedroid.ui.utils.getRepository
+import org.fdroid.R
+import org.fdroid.database.Repository
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.repositories.RepoIcon
+import org.fdroid.ui.utils.FDroidOutlineButton
+import org.fdroid.ui.utils.addressForUi
+import org.fdroid.ui.utils.asRelativeTimeString
+import org.fdroid.ui.utils.getRepository
 
 @Composable
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

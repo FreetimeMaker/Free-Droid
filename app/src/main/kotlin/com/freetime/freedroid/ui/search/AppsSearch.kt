@@ -20,9 +20,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.hideFromAccessibility
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.tooling.preview.Preview
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.navigation.NavigationKey
+import org.fdroid.R
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.navigation.NavigationKey
 
 /**
  * The minimum amount of characters we start auto-searching for.

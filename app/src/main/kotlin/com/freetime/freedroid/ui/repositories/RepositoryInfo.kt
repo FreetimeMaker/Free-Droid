@@ -1,6 +1,6 @@
 package com.freetime.freedroid.ui.repositories
 
-import com.freetime.freedroid.download.NetworkState
+import org.fdroid.download.NetworkState
 
 interface RepositoryInfo {
     val model: RepositoryModel

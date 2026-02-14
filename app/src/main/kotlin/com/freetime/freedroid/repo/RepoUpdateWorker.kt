@@ -25,11 +25,11 @@ import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import mu.KotlinLogging
-import com.freetime.freedroid.NotificationManager
-import com.freetime.freedroid.NotificationManager.Companion.NOTIFICATION_ID_REPO_UPDATE
-import com.freetime.freedroid.install.CacheCleaner
-import com.freetime.freedroid.settings.SettingsConstants.AutoUpdateValues
-import com.freetime.freedroid.ui.utils.canStartForegroundService
+import org.fdroid.NotificationManager
+import org.fdroid.NotificationManager.Companion.NOTIFICATION_ID_REPO_UPDATE
+import org.fdroid.install.CacheCleaner
+import org.fdroid.settings.SettingsConstants.AutoUpdateValues
+import org.fdroid.ui.utils.canStartForegroundService
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeUnit.MINUTES
 

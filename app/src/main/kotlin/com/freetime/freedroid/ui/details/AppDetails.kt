@@ -64,18 +64,18 @@ import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.core.os.LocaleListCompat
-import com.freetime.freedroid.LocaleChooser.getBestLocale
-import com.freetime.freedroid.R
-import com.freetime.freedroid.install.InstallState
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.categories.CategoryChip
-import com.freetime.freedroid.ui.icons.License
-import com.freetime.freedroid.ui.icons.Litecoin
-import com.freetime.freedroid.ui.lists.AppListType
-import com.freetime.freedroid.ui.navigation.NavigationKey
-import com.freetime.freedroid.ui.utils.BigLoadingIndicator
-import com.freetime.freedroid.ui.utils.ExpandableSection
-import com.freetime.freedroid.ui.utils.testApp
+import org.fdroid.LocaleChooser.getBestLocale
+import org.fdroid.R
+import org.fdroid.install.InstallState
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.categories.CategoryChip
+import org.fdroid.ui.icons.License
+import org.fdroid.ui.icons.Litecoin
+import org.fdroid.ui.lists.AppListType
+import org.fdroid.ui.navigation.NavigationKey
+import org.fdroid.ui.utils.BigLoadingIndicator
+import org.fdroid.ui.utils.ExpandableSection
+import org.fdroid.ui.utils.testApp
 
 @Composable
 @OptIn(

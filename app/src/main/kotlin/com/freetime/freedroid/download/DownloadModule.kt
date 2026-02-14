@@ -4,8 +4,8 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import com.freetime.freedroid.BuildConfig
-import com.freetime.freedroid.settings.SettingsManager
+import org.fdroid.BuildConfig
+import org.fdroid.settings.SettingsManager
 import javax.inject.Singleton
 
 @Module

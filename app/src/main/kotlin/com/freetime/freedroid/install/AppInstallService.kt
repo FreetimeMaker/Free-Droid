@@ -8,8 +8,8 @@ import android.os.IBinder
 import androidx.core.app.ServiceCompat
 import dagger.hilt.android.AndroidEntryPoint
 import mu.KotlinLogging
-import com.freetime.freedroid.NotificationManager
-import com.freetime.freedroid.NotificationManager.Companion.NOTIFICATION_ID_APP_INSTALLS
+import org.fdroid.NotificationManager
+import org.fdroid.NotificationManager.Companion.NOTIFICATION_ID_APP_INSTALLS
 import javax.inject.Inject
 
 @AndroidEntryPoint

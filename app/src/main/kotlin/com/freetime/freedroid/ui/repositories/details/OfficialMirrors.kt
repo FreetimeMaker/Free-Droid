@@ -18,10 +18,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.download.Mirror
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.ExpandableSection
+import org.fdroid.R
+import org.fdroid.download.Mirror
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.ExpandableSection
 
 @Composable
 fun OfficialMirrors(

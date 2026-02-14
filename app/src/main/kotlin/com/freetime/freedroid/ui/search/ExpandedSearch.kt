@@ -12,10 +12,10 @@ import androidx.compose.material3.SearchBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.categories.CategoryItem
-import com.freetime.freedroid.ui.lists.AppListItem
-import com.freetime.freedroid.ui.navigation.NavigationKey
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.categories.CategoryItem
+import org.fdroid.ui.lists.AppListItem
+import org.fdroid.ui.navigation.NavigationKey
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)

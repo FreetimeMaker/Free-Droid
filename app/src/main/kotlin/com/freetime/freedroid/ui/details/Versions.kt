@@ -34,15 +34,15 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.AppVersion
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.ExpandIconChevron
-import com.freetime.freedroid.ui.utils.ExpandableSection
-import com.freetime.freedroid.ui.utils.FDroidOutlineButton
-import com.freetime.freedroid.ui.utils.MeteredConnectionDialog
-import com.freetime.freedroid.ui.utils.asRelativeTimeString
-import com.freetime.freedroid.ui.utils.testApp
+import org.fdroid.R
+import org.fdroid.database.AppVersion
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.ExpandIconChevron
+import org.fdroid.ui.utils.ExpandableSection
+import org.fdroid.ui.utils.FDroidOutlineButton
+import org.fdroid.ui.utils.MeteredConnectionDialog
+import org.fdroid.ui.utils.asRelativeTimeString
+import org.fdroid.ui.utils.testApp
 
 @Composable
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

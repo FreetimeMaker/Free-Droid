@@ -1,7 +1,7 @@
 package com.freetime.freedroid.settings
 
-import com.freetime.freedroid.database.AppListSortOrder
-import com.freetime.freedroid.settings.SettingsConstants.AutoUpdateValues
+import org.fdroid.database.AppListSortOrder
+import org.fdroid.settings.SettingsConstants.AutoUpdateValues
 
 object SettingsConstants {
 

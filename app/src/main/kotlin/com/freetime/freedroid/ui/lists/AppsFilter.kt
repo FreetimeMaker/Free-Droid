@@ -36,15 +36,15 @@ import androidx.compose.ui.semantics.hideFromAccessibility
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.AppListSortOrder
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.categories.CategoryChip
-import com.freetime.freedroid.ui.categories.CategoryItem
-import com.freetime.freedroid.ui.icons.PackageVariant
-import com.freetime.freedroid.ui.utils.AsyncShimmerImage
-import com.freetime.freedroid.ui.utils.getAppListInfo
-import com.freetime.freedroid.ui.utils.repoItems
+import org.fdroid.R
+import org.fdroid.database.AppListSortOrder
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.categories.CategoryChip
+import org.fdroid.ui.categories.CategoryItem
+import org.fdroid.ui.icons.PackageVariant
+import org.fdroid.ui.utils.AsyncShimmerImage
+import org.fdroid.ui.utils.getAppListInfo
+import org.fdroid.ui.utils.repoItems
 import kotlin.random.Random
 
 @Composable

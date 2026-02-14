@@ -22,11 +22,11 @@ import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.AsyncShimmerImage
-import com.freetime.freedroid.ui.utils.ExpandableSection
-import com.freetime.freedroid.ui.utils.testApp
+import org.fdroid.R
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.AsyncShimmerImage
+import org.fdroid.ui.utils.ExpandableSection
+import org.fdroid.ui.utils.testApp
 
 @Composable
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

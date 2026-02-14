@@ -2,10 +2,10 @@ package com.freetime.freedroid.download
 
 import android.content.ContentResolver.SCHEME_FILE
 import android.net.Uri
-import com.freetime.freedroid.IndexFile
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.index.IndexFormatVersion
-import com.freetime.freedroid.settings.SettingsManager
+import org.fdroid.IndexFile
+import org.fdroid.database.Repository
+import org.fdroid.index.IndexFormatVersion
+import org.fdroid.settings.SettingsManager
 import java.io.File
 import javax.inject.Inject
 import javax.inject.Singleton

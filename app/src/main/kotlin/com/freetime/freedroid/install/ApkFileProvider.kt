@@ -16,7 +16,7 @@ import android.os.ParcelFileDescriptor.MODE_READ_ONLY
 import android.provider.MediaStore.MediaColumns
 import androidx.core.net.toUri
 import mu.KotlinLogging
-import com.freetime.freedroid.BuildConfig.APPLICATION_ID
+import org.fdroid.BuildConfig.APPLICATION_ID
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.IOException

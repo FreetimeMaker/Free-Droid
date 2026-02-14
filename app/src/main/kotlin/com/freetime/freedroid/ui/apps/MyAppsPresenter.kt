@@ -6,12 +6,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
-import com.freetime.freedroid.database.AppListSortOrder
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.install.InstallConfirmationState
-import com.freetime.freedroid.install.InstallState
-import com.freetime.freedroid.install.InstallStateWithInfo
-import com.freetime.freedroid.ui.utils.normalize
+import org.fdroid.database.AppListSortOrder
+import org.fdroid.download.NetworkState
+import org.fdroid.install.InstallConfirmationState
+import org.fdroid.install.InstallState
+import org.fdroid.install.InstallStateWithInfo
+import org.fdroid.ui.utils.normalize
 import java.text.Collator
 import java.util.Locale
 

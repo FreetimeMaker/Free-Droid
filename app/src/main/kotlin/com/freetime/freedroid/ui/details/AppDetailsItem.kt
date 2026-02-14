@@ -6,21 +6,21 @@ import androidx.activity.result.ActivityResult
 import androidx.annotation.VisibleForTesting
 import androidx.core.os.LocaleListCompat
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.database.App
-import com.freetime.freedroid.database.AppIssue
-import com.freetime.freedroid.database.AppMetadata
-import com.freetime.freedroid.database.AppPrefs
-import com.freetime.freedroid.database.AppVersion
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.DownloadRequest
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.download.PackageName
-import com.freetime.freedroid.download.getImageModel
-import com.freetime.freedroid.index.RELEASE_CHANNEL_BETA
-import com.freetime.freedroid.index.v2.PackageVersion
-import com.freetime.freedroid.install.InstallState
-import com.freetime.freedroid.install.SessionInstallManager
-import com.freetime.freedroid.ui.categories.CategoryItem
+import org.fdroid.database.App
+import org.fdroid.database.AppIssue
+import org.fdroid.database.AppMetadata
+import org.fdroid.database.AppPrefs
+import org.fdroid.database.AppVersion
+import org.fdroid.database.Repository
+import org.fdroid.download.DownloadRequest
+import org.fdroid.download.NetworkState
+import org.fdroid.download.PackageName
+import org.fdroid.download.getImageModel
+import org.fdroid.index.RELEASE_CHANNEL_BETA
+import org.fdroid.index.v2.PackageVersion
+import org.fdroid.install.InstallState
+import org.fdroid.install.SessionInstallManager
+import org.fdroid.ui.categories.CategoryItem
 
 data class AppDetailsItem(
     val app: AppMetadata,

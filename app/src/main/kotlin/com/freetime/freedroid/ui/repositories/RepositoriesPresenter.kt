@@ -4,9 +4,9 @@ import android.content.Context
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import kotlinx.coroutines.flow.StateFlow
-import com.freetime.freedroid.R
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.ui.utils.asRelativeTimeString
+import org.fdroid.R
+import org.fdroid.download.NetworkState
+import org.fdroid.ui.utils.asRelativeTimeString
 
 @Composable
 fun RepositoriesPresenter(

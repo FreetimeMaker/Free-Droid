@@ -21,14 +21,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.categories.CategoryChip
-import com.freetime.freedroid.ui.categories.CategoryItem
-import com.freetime.freedroid.ui.lists.AppListItem
-import com.freetime.freedroid.ui.lists.AppListRow
-import com.freetime.freedroid.ui.lists.AppListType
-import com.freetime.freedroid.ui.navigation.NavigationKey
-import com.freetime.freedroid.ui.utils.BigLoadingIndicator
+import org.fdroid.R
+import org.fdroid.ui.categories.CategoryChip
+import org.fdroid.ui.categories.CategoryItem
+import org.fdroid.ui.lists.AppListItem
+import org.fdroid.ui.lists.AppListRow
+import org.fdroid.ui.lists.AppListType
+import org.fdroid.ui.navigation.NavigationKey
+import org.fdroid.ui.utils.BigLoadingIndicator
 
 data class SearchResults(
     val apps: List<AppListItem>,

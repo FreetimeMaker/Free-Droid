@@ -11,7 +11,7 @@ import coil3.fetch.Fetcher
 import coil3.fetch.ImageFetchResult
 import coil3.request.Options
 import mu.KotlinLogging
-import com.freetime.freedroid.download.coil.DownloadRequestFetcher
+import org.fdroid.download.coil.DownloadRequestFetcher
 import javax.inject.Inject
 
 data class PackageName(

@@ -23,12 +23,12 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.viktormykhailiv.compose.hints.HintHost
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.repo.RepoUpdateProgress
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.ExpandableSection
-import com.freetime.freedroid.ui.utils.getRepoDetailsInfo
+import org.fdroid.R
+import org.fdroid.database.Repository
+import org.fdroid.repo.RepoUpdateProgress
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.ExpandableSection
+import org.fdroid.ui.utils.getRepoDetailsInfo
 
 @Composable
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

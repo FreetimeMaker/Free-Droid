@@ -27,11 +27,11 @@ import androidx.compose.ui.graphics.shadow.Shadow
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.utils.DraggableItem
-import com.freetime.freedroid.ui.utils.MeteredConnectionDialog
-import com.freetime.freedroid.ui.utils.dragContainer
-import com.freetime.freedroid.ui.utils.rememberDragDropState
+import org.fdroid.R
+import org.fdroid.ui.utils.DraggableItem
+import org.fdroid.ui.utils.MeteredConnectionDialog
+import org.fdroid.ui.utils.dragContainer
+import org.fdroid.ui.utils.rememberDragDropState
 
 @Composable
 fun RepositoriesList(

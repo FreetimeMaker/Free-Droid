@@ -19,7 +19,7 @@ import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
+import org.fdroid.R
 
 @Composable
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

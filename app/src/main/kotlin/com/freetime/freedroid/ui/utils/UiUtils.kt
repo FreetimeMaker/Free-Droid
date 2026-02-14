@@ -19,7 +19,7 @@ import com.google.zxing.BarcodeFormat
 import com.google.zxing.qrcode.QRCodeWriter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import com.freetime.freedroid.database.Repository
+import org.fdroid.database.Repository
 import java.text.Normalizer
 import java.text.Normalizer.Form.NFKD
 

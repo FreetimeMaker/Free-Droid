@@ -1,9 +1,9 @@
 package com.freetime.freedroid.ui.apps
 
-import com.freetime.freedroid.database.AppIssue
-import com.freetime.freedroid.download.PackageName
-import com.freetime.freedroid.index.v2.PackageVersion
-import com.freetime.freedroid.install.InstallStateWithInfo
+import org.fdroid.database.AppIssue
+import org.fdroid.download.PackageName
+import org.fdroid.index.v2.PackageVersion
+import org.fdroid.install.InstallStateWithInfo
 
 sealed class MyAppItem {
     abstract val packageName: String

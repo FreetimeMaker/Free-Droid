@@ -10,8 +10,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.hideFromAccessibility
 import androidx.compose.ui.semantics.semantics
-import com.freetime.freedroid.ui.navigation.NavDestinations
-import com.freetime.freedroid.ui.navigation.getMoreMenuItems
+import org.fdroid.ui.navigation.NavDestinations
+import org.fdroid.ui.navigation.getMoreMenuItems
 
 @Composable
 fun DiscoverOverFlowMenu(

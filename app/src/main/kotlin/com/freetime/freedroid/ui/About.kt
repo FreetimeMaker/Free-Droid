@@ -49,9 +49,9 @@ import androidx.compose.ui.text.style.Hyphens
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.BuildConfig.VERSION_NAME
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.utils.openUriSafe
+import org.fdroid.BuildConfig.VERSION_NAME
+import org.fdroid.R
+import org.fdroid.ui.utils.openUriSafe
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)

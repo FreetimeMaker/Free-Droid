@@ -22,12 +22,12 @@ import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import mu.KotlinLogging
-import com.freetime.freedroid.NotificationManager
-import com.freetime.freedroid.NotificationManager.Companion.NOTIFICATION_ID_APP_INSTALLS
-import com.freetime.freedroid.install.AppInstallManager
-import com.freetime.freedroid.install.InstallNotificationState
-import com.freetime.freedroid.settings.SettingsConstants.AutoUpdateValues
-import com.freetime.freedroid.ui.utils.canStartForegroundService
+import org.fdroid.NotificationManager
+import org.fdroid.NotificationManager.Companion.NOTIFICATION_ID_APP_INSTALLS
+import org.fdroid.install.AppInstallManager
+import org.fdroid.install.InstallNotificationState
+import org.fdroid.settings.SettingsConstants.AutoUpdateValues
+import org.fdroid.ui.utils.canStartForegroundService
 import java.util.concurrent.TimeUnit
 
 @HiltWorker

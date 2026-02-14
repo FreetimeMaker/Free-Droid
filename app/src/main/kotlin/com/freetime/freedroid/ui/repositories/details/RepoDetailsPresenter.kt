@@ -5,9 +5,9 @@ import androidx.compose.runtime.collectAsState
 import io.ktor.client.engine.ProxyConfig
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.repo.RepoUpdateState
+import org.fdroid.database.Repository
+import org.fdroid.download.NetworkState
+import org.fdroid.repo.RepoUpdateState
 
 @Composable
 fun RepoDetailsPresenter(

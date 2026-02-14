@@ -19,15 +19,15 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.os.LocaleListCompat
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.AppVersion
-import com.freetime.freedroid.database.KnownVulnerability
-import com.freetime.freedroid.database.NoCompatibleSigner
-import com.freetime.freedroid.database.NotAvailable
-import com.freetime.freedroid.database.UpdateInOtherRepo
-import com.freetime.freedroid.index.v2.ANTI_FEATURE_KNOWN_VULNERABILITY
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.testApp
+import org.fdroid.R
+import org.fdroid.database.AppVersion
+import org.fdroid.database.KnownVulnerability
+import org.fdroid.database.NoCompatibleSigner
+import org.fdroid.database.NotAvailable
+import org.fdroid.database.UpdateInOtherRepo
+import org.fdroid.index.v2.ANTI_FEATURE_KNOWN_VULNERABILITY
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.testApp
 
 @Composable
 fun AppDetailsWarnings(

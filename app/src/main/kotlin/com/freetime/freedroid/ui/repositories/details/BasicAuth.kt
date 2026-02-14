@@ -25,9 +25,9 @@ import androidx.compose.ui.semantics.liveRegion
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.FDroidOutlineButton
+import org.fdroid.R
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.FDroidOutlineButton
 
 @Composable
 fun BasicAuth(

@@ -21,8 +21,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.utils.startActivitySafe
+import org.fdroid.R
+import org.fdroid.ui.utils.startActivitySafe
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

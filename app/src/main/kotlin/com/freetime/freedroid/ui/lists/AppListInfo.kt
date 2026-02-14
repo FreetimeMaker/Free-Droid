@@ -1,8 +1,8 @@
 package com.freetime.freedroid.ui.lists
 
-import com.freetime.freedroid.database.AppListSortOrder
-import com.freetime.freedroid.ui.categories.CategoryItem
-import com.freetime.freedroid.ui.repositories.RepositoryItem
+import org.fdroid.database.AppListSortOrder
+import org.fdroid.ui.categories.CategoryItem
+import org.fdroid.ui.repositories.RepositoryItem
 
 interface AppListInfo {
     val model: AppListModel

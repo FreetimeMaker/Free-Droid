@@ -6,10 +6,10 @@ import androidx.lifecycle.AndroidViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.StateFlow
 import mu.KotlinLogging
-import com.freetime.freedroid.download.NetworkMonitor
-import com.freetime.freedroid.index.RepoManager
-import com.freetime.freedroid.repo.AddRepoState
-import com.freetime.freedroid.settings.SettingsManager
+import org.fdroid.download.NetworkMonitor
+import org.fdroid.index.RepoManager
+import org.fdroid.repo.AddRepoState
+import org.fdroid.settings.SettingsManager
 import javax.inject.Inject
 
 @HiltViewModel

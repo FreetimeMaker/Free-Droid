@@ -19,10 +19,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.startActivitySafe
-import com.freetime.freedroid.ui.utils.testApp
+import org.fdroid.R
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.startActivitySafe
+import org.fdroid.ui.utils.testApp
 
 @Composable
 fun AppDetailsMenu(

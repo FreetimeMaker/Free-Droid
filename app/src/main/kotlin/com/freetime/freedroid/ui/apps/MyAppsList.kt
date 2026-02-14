@@ -31,13 +31,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.NotAvailable
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.MeteredConnectionDialog
-import com.freetime.freedroid.ui.utils.OfflineBar
-import com.freetime.freedroid.ui.utils.getMyAppsInfo
-import com.freetime.freedroid.ui.utils.myAppsModel
+import org.fdroid.R
+import org.fdroid.database.NotAvailable
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.MeteredConnectionDialog
+import org.fdroid.ui.utils.OfflineBar
+import org.fdroid.ui.utils.getMyAppsInfo
+import org.fdroid.ui.utils.myAppsModel
 
 @Composable
 fun MyAppsList(

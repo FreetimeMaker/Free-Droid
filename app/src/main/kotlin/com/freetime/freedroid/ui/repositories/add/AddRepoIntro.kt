@@ -67,16 +67,16 @@ import com.journeyapps.barcodescanner.ScanOptions
 import com.journeyapps.barcodescanner.ScanOptions.QR_CODE
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import com.freetime.freedroid.R
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.repo.None
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.ExpandIconArrow
-import com.freetime.freedroid.ui.utils.FDroidButton
-import com.freetime.freedroid.ui.utils.FDroidOutlineButton
-import com.freetime.freedroid.ui.utils.MeteredConnectionDialog
-import com.freetime.freedroid.ui.utils.OfflineBar
-import com.freetime.freedroid.ui.utils.startActivitySafe
+import org.fdroid.R
+import org.fdroid.download.NetworkState
+import org.fdroid.repo.None
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.ExpandIconArrow
+import org.fdroid.ui.utils.FDroidButton
+import org.fdroid.ui.utils.FDroidOutlineButton
+import org.fdroid.ui.utils.MeteredConnectionDialog
+import org.fdroid.ui.utils.OfflineBar
+import org.fdroid.ui.utils.startActivitySafe
 
 @Composable
 fun AddRepoIntroContent(

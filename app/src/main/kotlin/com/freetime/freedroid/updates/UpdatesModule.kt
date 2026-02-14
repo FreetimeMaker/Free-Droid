@@ -6,11 +6,11 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import com.freetime.freedroid.CompatibilityChecker
-import com.freetime.freedroid.CompatibilityCheckerImpl
-import com.freetime.freedroid.UpdateChecker
-import com.freetime.freedroid.database.DbAppChecker
-import com.freetime.freedroid.database.FDroidDatabase
+import org.fdroid.CompatibilityChecker
+import org.fdroid.CompatibilityCheckerImpl
+import org.fdroid.UpdateChecker
+import org.fdroid.database.DbAppChecker
+import org.fdroid.database.FDroidDatabase
 import javax.inject.Singleton
 
 @Module

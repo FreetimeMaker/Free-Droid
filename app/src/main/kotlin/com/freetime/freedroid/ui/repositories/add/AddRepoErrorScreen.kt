@@ -25,14 +25,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.repo.AddRepoError
-import com.freetime.freedroid.repo.AddRepoError.ErrorType.INVALID_FINGERPRINT
-import com.freetime.freedroid.repo.AddRepoError.ErrorType.INVALID_INDEX
-import com.freetime.freedroid.repo.AddRepoError.ErrorType.IO_ERROR
-import com.freetime.freedroid.repo.AddRepoError.ErrorType.IS_ARCHIVE_REPO
-import com.freetime.freedroid.repo.AddRepoError.ErrorType.UNKNOWN_SOURCES_DISALLOWED
-import com.freetime.freedroid.ui.FDroidContent
+import org.fdroid.R
+import org.fdroid.repo.AddRepoError
+import org.fdroid.repo.AddRepoError.ErrorType.INVALID_FINGERPRINT
+import org.fdroid.repo.AddRepoError.ErrorType.INVALID_INDEX
+import org.fdroid.repo.AddRepoError.ErrorType.IO_ERROR
+import org.fdroid.repo.AddRepoError.ErrorType.IS_ARCHIVE_REPO
+import org.fdroid.repo.AddRepoError.ErrorType.UNKNOWN_SOURCES_DISALLOWED
+import org.fdroid.ui.FDroidContent
 import java.io.IOException
 
 @Composable

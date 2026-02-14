@@ -50,14 +50,14 @@ import com.viktormykhailiv.compose.hints.hintAnchor
 import com.viktormykhailiv.compose.hints.rememberHint
 import com.viktormykhailiv.compose.hints.rememberHintAnchorState
 import com.viktormykhailiv.compose.hints.rememberHintController
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.AppListSortOrder
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.search.TopSearchBar
-import com.freetime.freedroid.ui.utils.BigLoadingIndicator
-import com.freetime.freedroid.ui.utils.OnboardingCard
-import com.freetime.freedroid.ui.utils.getAppListInfo
-import com.freetime.freedroid.ui.utils.getHintOverlayColor
+import org.fdroid.R
+import org.fdroid.database.AppListSortOrder
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.search.TopSearchBar
+import org.fdroid.ui.utils.BigLoadingIndicator
+import org.fdroid.ui.utils.OnboardingCard
+import org.fdroid.ui.utils.getAppListInfo
+import org.fdroid.ui.utils.getHintOverlayColor
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)

@@ -10,8 +10,8 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import com.freetime.freedroid.settings.SettingsConstants.AutoUpdateValues
-import com.freetime.freedroid.settings.SettingsManager
+import org.fdroid.settings.SettingsConstants.AutoUpdateValues
+import org.fdroid.settings.SettingsManager
 import javax.inject.Inject
 import javax.inject.Singleton
 

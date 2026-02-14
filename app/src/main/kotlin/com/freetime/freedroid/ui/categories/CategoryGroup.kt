@@ -1,7 +1,7 @@
 package com.freetime.freedroid.ui.categories
 
 import androidx.annotation.StringRes
-import com.freetime.freedroid.R
+import org.fdroid.R
 
 data class CategoryGroup(
     val id: String,

@@ -28,11 +28,11 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import mu.KotlinLogging
-import com.freetime.freedroid.LocaleChooser.getBestLocale
-import com.freetime.freedroid.database.AppMetadata
-import com.freetime.freedroid.database.AppVersion
-import com.freetime.freedroid.ui.utils.isAppInForeground
-import com.freetime.freedroid.utils.IoDispatcher
+import org.fdroid.LocaleChooser.getBestLocale
+import org.fdroid.database.AppMetadata
+import org.fdroid.database.AppVersion
+import org.fdroid.ui.utils.isAppInForeground
+import org.fdroid.utils.IoDispatcher
 import java.io.File
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -48,7 +48,7 @@ class SessionInstallManager @Inject constructor(
     private val installer = context.packageManager.packageInstaller
 
     companion object {
-        private const val ACTION_INSTALL = "com.freetime.freedroid.install.SessionInstallManager.install"
+        private const val ACTION_INSTALL = "org.fdroid.install.SessionInstallManager.install"
 
         /**
          * If this returns true, we can use

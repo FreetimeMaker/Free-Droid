@@ -23,10 +23,10 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.tooling.preview.Preview
 import me.zhanghai.compose.preference.ProvidePreferenceLocals
 import me.zhanghai.compose.preference.textFieldPreference
-import com.freetime.freedroid.R
-import com.freetime.freedroid.settings.SettingsConstants.PREF_DEFAULT_PROXY
-import com.freetime.freedroid.settings.SettingsConstants.PREF_KEY_PROXY
-import com.freetime.freedroid.ui.FDroidContent
+import org.fdroid.R
+import org.fdroid.settings.SettingsConstants.PREF_DEFAULT_PROXY
+import org.fdroid.settings.SettingsConstants.PREF_KEY_PROXY
+import org.fdroid.ui.FDroidContent
 import java.net.InetSocketAddress
 
 fun LazyListScope.preferenceProxy(

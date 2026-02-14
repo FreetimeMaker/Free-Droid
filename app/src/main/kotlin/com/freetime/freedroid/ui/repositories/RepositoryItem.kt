@@ -2,8 +2,8 @@ package com.freetime.freedroid.ui.repositories
 
 import androidx.core.os.LocaleListCompat
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.getImageModel
+import org.fdroid.database.Repository
+import org.fdroid.download.getImageModel
 
 data class RepositoryItem(
     val repoId: Long,

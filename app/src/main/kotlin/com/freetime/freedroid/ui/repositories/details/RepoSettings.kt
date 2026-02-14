@@ -15,13 +15,13 @@ import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.ExpandableSection
-import com.freetime.freedroid.ui.utils.FDroidOutlineButton
-import com.freetime.freedroid.ui.utils.FDroidSwitchRow
-import com.freetime.freedroid.ui.utils.getRepository
+import org.fdroid.R
+import org.fdroid.database.Repository
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.ExpandableSection
+import org.fdroid.ui.utils.FDroidOutlineButton
+import org.fdroid.ui.utils.FDroidSwitchRow
+import org.fdroid.ui.utils.getRepository
 
 @Composable
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

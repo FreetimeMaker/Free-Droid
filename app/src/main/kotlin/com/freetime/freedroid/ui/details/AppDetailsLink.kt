@@ -21,8 +21,8 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.utils.openUriSafe
+import org.fdroid.R
+import org.fdroid.ui.utils.openUriSafe
 
 @Composable
 fun AppDetailsLink(icon: ImageVector, title: String, url: String, modifier: Modifier = Modifier) {

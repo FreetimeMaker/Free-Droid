@@ -11,7 +11,7 @@ import org.acra.ACRAConstants.DATE_TIME_FORMAT_STRING
 import org.acra.ReportField
 import org.acra.ReportField.USER_CRASH_DATE
 import org.acra.dialog.CrashReportDialogHelper
-import com.freetime.freedroid.ui.FDroidContent
+import org.fdroid.ui.FDroidContent
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.Locale

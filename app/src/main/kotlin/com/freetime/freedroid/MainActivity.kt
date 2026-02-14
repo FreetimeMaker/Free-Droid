@@ -11,7 +11,7 @@ import androidx.activity.result.contract.ActivityResultContracts.RequestPermissi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import dagger.hilt.android.AndroidEntryPoint
-import com.freetime.freedroid.ui.Main
+import org.fdroid.ui.Main
 
 // Using [AppCompatActivity] and not [ComponentActivity] seems to be needed
 // for automatic theme changes when calling AppCompatDelegate.setDefaultNightMode()

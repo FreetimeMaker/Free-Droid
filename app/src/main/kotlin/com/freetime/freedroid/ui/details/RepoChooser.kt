@@ -32,12 +32,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.os.LocaleListCompat
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.R
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.index.IndexFormatVersion.TWO
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.repositories.RepoIcon
-import com.freetime.freedroid.ui.utils.FDroidOutlineButton
+import org.fdroid.R
+import org.fdroid.database.Repository
+import org.fdroid.index.IndexFormatVersion.TWO
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.repositories.RepoIcon
+import org.fdroid.ui.utils.FDroidOutlineButton
 
 @Composable
 fun RepoChooser(

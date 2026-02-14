@@ -22,18 +22,18 @@ import org.acra.config.dialog
 import org.acra.config.mailSender
 import org.acra.data.StringFormat.JSON
 import org.acra.ktx.initAcra
-import com.freetime.freedroid.BuildConfig.APPLICATION_ID
-import com.freetime.freedroid.BuildConfig.VERSION_NAME
-import com.freetime.freedroid.download.DownloadRequest
-import com.freetime.freedroid.download.LocalIconFetcher
-import com.freetime.freedroid.download.PackageName
-import com.freetime.freedroid.download.coil.DownloadRequestFetcher
-import com.freetime.freedroid.repo.RepoUpdateWorker
-import com.freetime.freedroid.settings.SettingsManager
-import com.freetime.freedroid.ui.crash.CrashActivity
-import com.freetime.freedroid.ui.crash.NoRetryPolicy
-import com.freetime.freedroid.ui.utils.applyNewTheme
-import com.freetime.freedroid.updates.AppUpdateWorker
+import org.fdroid.BuildConfig.APPLICATION_ID
+import org.fdroid.BuildConfig.VERSION_NAME
+import org.fdroid.download.DownloadRequest
+import org.fdroid.download.LocalIconFetcher
+import org.fdroid.download.PackageName
+import org.fdroid.download.coil.DownloadRequestFetcher
+import org.fdroid.repo.RepoUpdateWorker
+import org.fdroid.settings.SettingsManager
+import org.fdroid.ui.crash.CrashActivity
+import org.fdroid.ui.crash.NoRetryPolicy
+import org.fdroid.ui.utils.applyNewTheme
+import org.fdroid.updates.AppUpdateWorker
 import javax.inject.Inject
 
 @HiltAndroidApp

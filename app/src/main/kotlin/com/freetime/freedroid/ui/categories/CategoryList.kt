@@ -14,10 +14,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation3.runtime.NavKey
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.lists.AppListType
-import com.freetime.freedroid.ui.navigation.NavigationKey
+import org.fdroid.R
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.lists.AppListType
+import org.fdroid.ui.navigation.NavigationKey
 
 @Composable
 fun CategoryList(

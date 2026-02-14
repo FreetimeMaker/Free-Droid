@@ -41,10 +41,10 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.AsyncShimmerImage
-import com.freetime.freedroid.ui.utils.testApp
+import org.fdroid.R
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.AsyncShimmerImage
+import org.fdroid.ui.utils.testApp
 
 @Composable
 fun Screenshots(isMetered: Boolean, phoneScreenshots: List<Any>) {

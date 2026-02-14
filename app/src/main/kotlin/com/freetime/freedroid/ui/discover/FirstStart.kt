@@ -27,14 +27,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.freetime.freedroid.R
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.index.IndexUpdateResult
-import com.freetime.freedroid.repo.RepoUpdateFinished
-import com.freetime.freedroid.repo.RepoUpdateProgress
-import com.freetime.freedroid.repo.RepoUpdateState
-import com.freetime.freedroid.repo.RepoUpdateWorker
-import com.freetime.freedroid.ui.FDroidContent
+import org.fdroid.R
+import org.fdroid.download.NetworkState
+import org.fdroid.index.IndexUpdateResult
+import org.fdroid.repo.RepoUpdateFinished
+import org.fdroid.repo.RepoUpdateProgress
+import org.fdroid.repo.RepoUpdateState
+import org.fdroid.repo.RepoUpdateWorker
+import org.fdroid.ui.FDroidContent
 
 @Composable
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

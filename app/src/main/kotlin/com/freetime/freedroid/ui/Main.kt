@@ -27,26 +27,26 @@ import androidx.navigation3.runtime.NavKey
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.ui.NavDisplay
 import com.viktormykhailiv.compose.hints.HintHost
-import com.freetime.freedroid.settings.SettingsConstants.PREF_DEFAULT_DYNAMIC_COLORS
-import com.freetime.freedroid.ui.apps.myAppsEntry
-import com.freetime.freedroid.ui.details.NoAppSelected
-import com.freetime.freedroid.ui.details.appDetailsEntry
-import com.freetime.freedroid.ui.discover.discoverEntry
-import com.freetime.freedroid.ui.lists.appListEntry
-import com.freetime.freedroid.ui.navigation.BottomBar
-import com.freetime.freedroid.ui.navigation.IntentRouter
-import com.freetime.freedroid.ui.navigation.MainNavKey
-import com.freetime.freedroid.ui.navigation.NavigationKey
-import com.freetime.freedroid.ui.navigation.NavigationRail
-import com.freetime.freedroid.ui.navigation.Navigator
-import com.freetime.freedroid.ui.navigation.rememberNavigationState
-import com.freetime.freedroid.ui.navigation.toEntries
-import com.freetime.freedroid.ui.navigation.topLevelRoutes
-import com.freetime.freedroid.ui.repositories.repoEntry
-import com.freetime.freedroid.ui.search.ExpandedSearch
-import com.freetime.freedroid.ui.search.SearchViewModel
-import com.freetime.freedroid.ui.settings.Settings
-import com.freetime.freedroid.ui.settings.SettingsViewModel
+import org.fdroid.settings.SettingsConstants.PREF_DEFAULT_DYNAMIC_COLORS
+import org.fdroid.ui.apps.myAppsEntry
+import org.fdroid.ui.details.NoAppSelected
+import org.fdroid.ui.details.appDetailsEntry
+import org.fdroid.ui.discover.discoverEntry
+import org.fdroid.ui.lists.appListEntry
+import org.fdroid.ui.navigation.BottomBar
+import org.fdroid.ui.navigation.IntentRouter
+import org.fdroid.ui.navigation.MainNavKey
+import org.fdroid.ui.navigation.NavigationKey
+import org.fdroid.ui.navigation.NavigationRail
+import org.fdroid.ui.navigation.Navigator
+import org.fdroid.ui.navigation.rememberNavigationState
+import org.fdroid.ui.navigation.toEntries
+import org.fdroid.ui.navigation.topLevelRoutes
+import org.fdroid.ui.repositories.repoEntry
+import org.fdroid.ui.search.ExpandedSearch
+import org.fdroid.ui.search.SearchViewModel
+import org.fdroid.ui.settings.Settings
+import org.fdroid.ui.settings.SettingsViewModel
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable

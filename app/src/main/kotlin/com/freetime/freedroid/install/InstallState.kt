@@ -1,9 +1,9 @@
 package com.freetime.freedroid.install
 
 import android.app.PendingIntent
-import com.freetime.freedroid.database.AppVersion
-import com.freetime.freedroid.database.Repository
-import com.freetime.freedroid.download.DownloadRequest
+import org.fdroid.database.AppVersion
+import org.fdroid.database.Repository
+import org.fdroid.download.DownloadRequest
 
 sealed class InstallState(val showProgress: Boolean) {
     data object Unknown : InstallState(false)

@@ -2,7 +2,7 @@ package com.freetime.freedroid.install
 
 import android.content.Context
 import androidx.annotation.StringRes
-import com.freetime.freedroid.R
+import org.fdroid.R
 import kotlin.math.roundToInt
 
 data class InstallNotificationState(

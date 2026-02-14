@@ -36,14 +36,14 @@ import com.viktormykhailiv.compose.hints.HintHost
 import com.viktormykhailiv.compose.hints.rememberHint
 import com.viktormykhailiv.compose.hints.rememberHintAnchorState
 import com.viktormykhailiv.compose.hints.rememberHintController
-import com.freetime.freedroid.R
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.utils.BigLoadingIndicator
-import com.freetime.freedroid.ui.utils.OnboardingCard
-import com.freetime.freedroid.ui.utils.getHintOverlayColor
-import com.freetime.freedroid.ui.utils.getRepositoriesInfo
-import com.freetime.freedroid.ui.utils.repoItems
+import org.fdroid.R
+import org.fdroid.download.NetworkState
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.utils.BigLoadingIndicator
+import org.fdroid.ui.utils.OnboardingCard
+import org.fdroid.ui.utils.getHintOverlayColor
+import org.fdroid.ui.utils.getRepositoriesInfo
+import org.fdroid.ui.utils.repoItems
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

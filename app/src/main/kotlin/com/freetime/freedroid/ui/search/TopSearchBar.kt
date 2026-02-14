@@ -19,7 +19,7 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import kotlinx.coroutines.FlowPreview
-import com.freetime.freedroid.R
+import org.fdroid.R
 
 /**
  * This is a top app bar that isn't mean to ever expand with results, but for in-list filtering.

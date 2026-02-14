@@ -10,9 +10,9 @@ import androidx.compose.material.icons.filled.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable
-import com.freetime.freedroid.R
-import com.freetime.freedroid.ui.icons.PackageVariant
-import com.freetime.freedroid.ui.lists.AppListType
+import org.fdroid.R
+import org.fdroid.ui.icons.PackageVariant
+import org.fdroid.ui.lists.AppListType
 
 sealed interface NavigationKey : NavKey {
 

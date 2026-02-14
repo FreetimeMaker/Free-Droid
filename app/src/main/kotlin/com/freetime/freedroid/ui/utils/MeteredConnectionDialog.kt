@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.freetime.freedroid.R
+import org.fdroid.R
 
 @Composable
 fun MeteredConnectionDialog(numBytes: Long?, onConfirm: () -> Unit, onDismiss: () -> Unit) {

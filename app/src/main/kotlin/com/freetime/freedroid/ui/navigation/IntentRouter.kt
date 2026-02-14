@@ -12,7 +12,7 @@ class IntentRouter(private val navigator: Navigator) : Consumer<Intent> {
     private val packageNameRegex = "[A-Za-z\\d_.]+".toRegex()
 
     companion object {
-        const val ACTION_MY_APPS = "com.freetime.freedroid.action.MY_APPS"
+        const val ACTION_MY_APPS = "org.fdroid.action.MY_APPS"
     }
 
     override fun accept(value: Intent) {

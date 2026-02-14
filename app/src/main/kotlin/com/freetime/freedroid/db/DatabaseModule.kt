@@ -6,8 +6,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import com.freetime.freedroid.database.FDroidDatabase
-import com.freetime.freedroid.database.FDroidDatabaseHolder
+import org.fdroid.database.FDroidDatabase
+import org.fdroid.database.FDroidDatabaseHolder
 import javax.inject.Singleton
 
 @Module

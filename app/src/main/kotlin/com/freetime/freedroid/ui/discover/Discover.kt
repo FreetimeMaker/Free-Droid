@@ -32,14 +32,14 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation3.runtime.NavKey
-import com.freetime.freedroid.R
-import com.freetime.freedroid.download.NetworkState
-import com.freetime.freedroid.repo.RepoUpdateProgress
-import com.freetime.freedroid.ui.FDroidContent
-import com.freetime.freedroid.ui.lists.AppListType
-import com.freetime.freedroid.ui.navigation.NavigationKey
-import com.freetime.freedroid.ui.navigation.topBarMenuItems
-import com.freetime.freedroid.ui.utils.BigLoadingIndicator
+import org.fdroid.R
+import org.fdroid.download.NetworkState
+import org.fdroid.repo.RepoUpdateProgress
+import org.fdroid.ui.FDroidContent
+import org.fdroid.ui.lists.AppListType
+import org.fdroid.ui.navigation.NavigationKey
+import org.fdroid.ui.navigation.topBarMenuItems
+import org.fdroid.ui.utils.BigLoadingIndicator
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
