@@ -104,16 +104,11 @@ Free-Droid is ideal for users who want:
 
 This project is licensed under the GNU General Public License v3.0 - see [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more information.
-
 ## 🌐 Links
 
-- **Website**: [Project Website](https://freetime.example.com)
-- **Source Code**: [GitHub Repository](https://github.com/freetime/freedroid)
-- **Issues**: [Bug Reports & Feature Requests](https://github.com/freetime/freedroid/issues)
-- **Releases**: [Latest Releases](https://github.com/freetime/freedroid/releases)
+- **Source Code**: [GitHub Repository](https://github.com/freetime/Free-Droid)
+- **Issues**: [Bug Reports & Feature Requests](https://github.com/freetime/Free-Droid/issues)
+- **Releases**: [Latest Releases](https://github.com/freetime/Free-Droid/releases)
 
 ---
 
