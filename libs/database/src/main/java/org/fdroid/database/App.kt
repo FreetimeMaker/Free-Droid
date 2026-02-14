@@ -12,14 +12,14 @@ import androidx.room.Fts4
 import androidx.room.FtsOptions
 import androidx.room.Ignore
 import androidx.room.Relation
-import org.fdroid.LocaleChooser.getBestLocale
-import org.fdroid.database.Converters.fromStringToMapOfLocalizedTextV2
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.LocalizedFileListV2
-import org.fdroid.index.v2.LocalizedFileV2
-import org.fdroid.index.v2.LocalizedTextV2
-import org.fdroid.index.v2.MetadataV2
-import org.fdroid.index.v2.Screenshots
+import com.freetime.freedroid.LocaleChooser.getBestLocale
+import com.freetime.freedroid.database.Converters.fromStringToMapOfLocalizedTextV2
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.LocalizedFileListV2
+import com.freetime.freedroid.index.v2.LocalizedFileV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.v2.MetadataV2
+import com.freetime.freedroid.index.v2.Screenshots
 
 public interface MinimalApp {
     public val repoId: Long

@@ -3,10 +3,10 @@ package org.fdroid.index
 import android.net.Uri
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
-import org.fdroid.database.Repository
-import org.fdroid.database.RepositoryDaoInt
-import org.fdroid.download.Downloader
-import org.fdroid.download.NotFoundException
+import com.freetime.freedroid.database.Repository
+import com.freetime.freedroid.database.RepositoryDaoInt
+import com.freetime.freedroid.download.Downloader
+import com.freetime.freedroid.download.NotFoundException
 import java.io.File
 import java.io.IOException
 

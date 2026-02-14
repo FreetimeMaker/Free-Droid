@@ -1,14 +1,14 @@
 package org.fdroid.index
 
 import com.goncalossilva.resources.Resource
-import org.fdroid.index.IndexParser.parseV1
-import org.fdroid.index.v2.IndexV2
-import org.fdroid.test.TestDataEmptyV2
-import org.fdroid.test.TestDataMaxV2
-import org.fdroid.test.TestDataMidV2
-import org.fdroid.test.TestDataMinV2
-import org.fdroid.test.TestUtils.sorted
-import org.fdroid.test.v1compat
+import com.freetime.freedroid.index.IndexParser.parseV1
+import com.freetime.freedroid.index.v2.IndexV2
+import com.freetime.freedroid.test.TestDataEmptyV2
+import com.freetime.freedroid.test.TestDataMaxV2
+import com.freetime.freedroid.test.TestDataMidV2
+import com.freetime.freedroid.test.TestDataMinV2
+import com.freetime.freedroid.test.TestUtils.sorted
+import com.freetime.freedroid.test.v1compat
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

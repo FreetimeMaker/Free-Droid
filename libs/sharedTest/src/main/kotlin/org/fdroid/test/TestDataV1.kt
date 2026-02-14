@@ -1,12 +1,12 @@
 package org.fdroid.test
 
-import org.fdroid.index.v1.AppV1
-import org.fdroid.index.v1.IndexV1
-import org.fdroid.index.v1.Localized
-import org.fdroid.index.v1.PackageV1
-import org.fdroid.index.v1.PermissionV1
-import org.fdroid.index.v1.RepoV1
-import org.fdroid.index.v1.Requests
+import com.freetime.freedroid.index.v1.AppV1
+import com.freetime.freedroid.index.v1.IndexV1
+import com.freetime.freedroid.index.v1.Localized
+import com.freetime.freedroid.index.v1.PackageV1
+import com.freetime.freedroid.index.v1.PermissionV1
+import com.freetime.freedroid.index.v1.RepoV1
+import com.freetime.freedroid.index.v1.Requests
 
 object TestDataEmptyV1 {
     val repo = RepoV1(

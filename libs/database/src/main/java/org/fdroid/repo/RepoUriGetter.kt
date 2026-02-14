@@ -1,7 +1,7 @@
 package org.fdroid.repo
 
 import android.net.Uri
-import org.fdroid.database.Repository
+import com.freetime.freedroid.database.Repository
 
 internal object RepoUriGetter {
 

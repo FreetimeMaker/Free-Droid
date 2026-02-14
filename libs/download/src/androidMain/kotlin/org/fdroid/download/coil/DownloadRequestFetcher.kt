@@ -21,10 +21,10 @@ import okio.BufferedSource
 import okio.FileSystem
 import okio.buffer
 import okio.source
-import org.fdroid.download.DownloadRequest
-import org.fdroid.download.HttpManager
-import org.fdroid.download.glide.AutoVerifyingInputStream
-import org.fdroid.download.glide.getKey
+import com.freetime.freedroid.download.DownloadRequest
+import com.freetime.freedroid.download.HttpManager
+import com.freetime.freedroid.download.glide.AutoVerifyingInputStream
+import com.freetime.freedroid.download.glide.getKey
 import javax.inject.Inject
 
 public class DownloadRequestFetcher(

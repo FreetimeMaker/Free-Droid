@@ -2,9 +2,9 @@ package org.fdroid.index.v2
 
 import com.goncalossilva.resources.Resource
 import kotlinx.serialization.SerializationException
-import org.fdroid.index.IndexParser
-import org.fdroid.index.ASSET_PATH
-import org.fdroid.test.TestDataEntry
+import com.freetime.freedroid.index.IndexParser
+import com.freetime.freedroid.index.ASSET_PATH
+import com.freetime.freedroid.test.TestDataEntry
 import org.junit.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

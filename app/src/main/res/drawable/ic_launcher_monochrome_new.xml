@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Modern monochrome icon for FreeDroid -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M54,20C35.05,20 20,35.05 20,54C20,72.95 35.05,88 54,88C72.95,88 88,72.95 88,54C88,35.05 72.95,20 54,20z"/>
+    <!-- Modern play arrow -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M54,38L42,50L46,50L46,74L62,74L62,50L66,50L54,38z"/>
+    <!-- Small accent dot -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M72,44C75.3,44 78,46.9 78,54C78,61.1 77.3,64 76,64C74.7,64 72,61.1 72,54C72,46.9 74.7,44 76,44z"/>
+</vector>

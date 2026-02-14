@@ -2,8 +2,8 @@ package org.fdroid.database
 
 import androidx.core.os.LocaleListCompat
 import kotlinx.serialization.json.JsonObject
-import org.fdroid.CompatibilityChecker
-import org.fdroid.index.v2.IndexV2DiffStreamReceiver
+import com.freetime.freedroid.CompatibilityChecker
+import com.freetime.freedroid.index.v2.IndexV2DiffStreamReceiver
 
 internal class DbV2DiffStreamReceiver(
     private val db: FDroidDatabaseInt,

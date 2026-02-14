@@ -9,8 +9,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import org.fdroid.download.DownloadRequest
-import org.fdroid.download.HttpManager
+import com.freetime.freedroid.download.DownloadRequest
+import com.freetime.freedroid.download.HttpManager
 import java.io.InputStream
 
 internal class HttpFetcher(

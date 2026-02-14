@@ -7,7 +7,7 @@ import androidx.room.AutoMigration
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import org.fdroid.LocaleChooser.getBestLocale
+import com.freetime.freedroid.LocaleChooser.getBestLocale
 import java.io.Closeable
 import java.util.Locale
 import java.util.concurrent.Callable

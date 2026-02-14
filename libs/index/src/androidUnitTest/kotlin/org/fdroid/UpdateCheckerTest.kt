@@ -1,9 +1,9 @@
 package org.fdroid
 
-import org.fdroid.index.RELEASE_CHANNEL_BETA
-import org.fdroid.index.v2.PackageManifest
-import org.fdroid.index.v2.PackageVersion
-import org.fdroid.index.v2.SignerV2
+import com.freetime.freedroid.index.RELEASE_CHANNEL_BETA
+import com.freetime.freedroid.index.v2.PackageManifest
+import com.freetime.freedroid.index.v2.PackageVersion
+import com.freetime.freedroid.index.v2.SignerV2
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull

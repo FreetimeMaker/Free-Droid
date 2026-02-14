@@ -2,9 +2,9 @@ package org.fdroid.test
 
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.jsonObject
-import org.fdroid.index.v2.MetadataV2
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.index.v2.MetadataV2
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.v2.RepoV2
 import kotlin.random.Random
 
 object DiffUtils {

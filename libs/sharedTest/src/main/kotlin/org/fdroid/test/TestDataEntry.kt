@@ -1,7 +1,7 @@
 package org.fdroid.test
 
-import org.fdroid.index.v2.Entry
-import org.fdroid.index.v2.EntryFileV2
+import com.freetime.freedroid.index.v2.Entry
+import com.freetime.freedroid.index.v2.EntryFileV2
 
 object TestDataEntry {
 

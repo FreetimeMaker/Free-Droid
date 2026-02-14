@@ -1,8 +1,8 @@
 package org.fdroid.index
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.fdroid.database.Repository
-import org.fdroid.index.v2.SIGNED_FILE_NAME
+import com.freetime.freedroid.database.Repository
+import com.freetime.freedroid.index.v2.SIGNED_FILE_NAME
 import org.junit.Test
 import org.junit.runner.RunWith
 import kotlin.test.assertEquals

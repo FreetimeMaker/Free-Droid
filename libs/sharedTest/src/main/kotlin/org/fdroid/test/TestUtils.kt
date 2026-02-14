@@ -1,9 +1,9 @@
 package org.fdroid.test
 
-import org.fdroid.index.v2.IndexV2
-import org.fdroid.index.v2.LocalizedFileListV2
-import org.fdroid.index.v2.MetadataV2
-import org.fdroid.index.v2.Screenshots
+import com.freetime.freedroid.index.v2.IndexV2
+import com.freetime.freedroid.index.v2.LocalizedFileListV2
+import com.freetime.freedroid.index.v2.MetadataV2
+import com.freetime.freedroid.index.v2.Screenshots
 import kotlin.random.Random
 
 object TestUtils {

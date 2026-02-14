@@ -2,10 +2,10 @@ package org.fdroid.repo
 
 import android.net.Uri
 import kotlinx.serialization.SerializationException
-import org.fdroid.database.AppOverviewItem
-import org.fdroid.database.Repository
-import org.fdroid.download.NotFoundException
-import org.fdroid.index.SigningException
+import com.freetime.freedroid.database.AppOverviewItem
+import com.freetime.freedroid.database.Repository
+import com.freetime.freedroid.download.NotFoundException
+import com.freetime.freedroid.index.SigningException
 import java.io.File
 import java.io.IOException
 

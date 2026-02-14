@@ -1,7 +1,7 @@
 package org.fdroid.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.fdroid.test.TestRepoUtils
+import com.freetime.freedroid.test.TestRepoUtils
 import org.junit.Test
 import org.junit.runner.RunWith
 import kotlin.test.assertEquals

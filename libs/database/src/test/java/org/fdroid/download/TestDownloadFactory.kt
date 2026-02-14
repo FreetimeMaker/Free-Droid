@@ -1,8 +1,8 @@
 package org.fdroid.download
 
 import android.net.Uri
-import org.fdroid.IndexFile
-import org.fdroid.database.Repository
+import com.freetime.freedroid.IndexFile
+import com.freetime.freedroid.database.Repository
 import java.io.File
 
 internal class TestDownloadFactory(private val httpManager: HttpManager) : DownloaderFactory() {

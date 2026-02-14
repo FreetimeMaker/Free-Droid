@@ -13,10 +13,10 @@ import okhttp3.ConnectionSpec
 import okhttp3.ConnectionSpec.Companion.MODERN_TLS
 import okhttp3.ConnectionSpec.Companion.RESTRICTED_TLS
 import okhttp3.TlsVersion.TLS_1_2
-import org.fdroid.IndexFile
-import org.fdroid.getIndexFile
-import org.fdroid.getRandomString
-import org.fdroid.runSuspend
+import com.freetime.freedroid.IndexFile
+import com.freetime.freedroid.getIndexFile
+import com.freetime.freedroid.getRandomString
+import com.freetime.freedroid.runSuspend
 import org.json.JSONObject
 import org.junit.Assume.assumeTrue
 import org.junit.runner.RunWith

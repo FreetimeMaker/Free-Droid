@@ -14,15 +14,15 @@ import androidx.sqlite.db.SimpleSQLiteQuery
 import androidx.sqlite.db.SupportSQLiteQuery
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.decodeFromJsonElement
-import org.fdroid.database.DbDiffUtils.diffAndUpdateListTable
-import org.fdroid.database.DbDiffUtils.diffAndUpdateTable
-import org.fdroid.index.IndexFormatVersion
-import org.fdroid.index.IndexParser.json
-import org.fdroid.index.v1.IndexV1Updater
-import org.fdroid.index.v2.IndexV2Updater
-import org.fdroid.index.v2.MirrorV2
-import org.fdroid.index.v2.ReflectionDiffer.applyDiff
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.database.DbDiffUtils.diffAndUpdateListTable
+import com.freetime.freedroid.database.DbDiffUtils.diffAndUpdateTable
+import com.freetime.freedroid.index.IndexFormatVersion
+import com.freetime.freedroid.index.IndexParser.json
+import com.freetime.freedroid.index.v1.IndexV1Updater
+import com.freetime.freedroid.index.v2.IndexV2Updater
+import com.freetime.freedroid.index.v2.MirrorV2
+import com.freetime.freedroid.index.v2.ReflectionDiffer.applyDiff
+import com.freetime.freedroid.index.v2.RepoV2
 
 public interface RepositoryDao {
     /**

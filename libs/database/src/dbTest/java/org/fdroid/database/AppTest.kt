@@ -1,9 +1,9 @@
 package org.fdroid.database
 
-import org.fdroid.test.TestAppUtils.getRandomMetadataV2
-import org.fdroid.test.TestRepoUtils.getRandomFileV2
-import org.fdroid.test.TestUtils.getRandomString
-import org.fdroid.test.TestUtils.sort
+import com.freetime.freedroid.test.TestAppUtils.getRandomMetadataV2
+import com.freetime.freedroid.test.TestRepoUtils.getRandomFileV2
+import com.freetime.freedroid.test.TestUtils.getRandomString
+import com.freetime.freedroid.test.TestUtils.sort
 
 internal abstract class AppTest : DbTest() {
 

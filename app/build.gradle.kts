@@ -10,15 +10,15 @@ plugins {
 }
 
 android {
-    namespace = "org.fdroid"
+    namespace = "com.freetime.freedroid"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "org.fdroid"
+        applicationId = "com.freetime.freedroid"
         minSdk = 24
         targetSdk = 36
-        versionCode = 2000002
-        versionName = "2.0-alpha2"
+        versionCode = 1
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -38,17 +38,6 @@ android {
             applicationIdSuffix = ".debug"
             versionNameSuffix = "-debug"
             isDebuggable = true
-        }
-    }
-    flavorDimensions += "base"
-    productFlavors {
-        create("basic") {
-            dimension = "base"
-            applicationIdSuffix = ".basic"
-        }
-        create("full") {
-            dimension = "base"
-            applicationIdSuffix = ".fdroid"
         }
     }
     compileOptions {

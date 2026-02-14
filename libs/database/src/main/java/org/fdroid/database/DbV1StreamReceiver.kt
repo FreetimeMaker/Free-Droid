@@ -1,15 +1,15 @@
 package org.fdroid.database
 
 import androidx.core.os.LocaleListCompat
-import org.fdroid.CompatibilityChecker
-import org.fdroid.index.IndexFormatVersion.ONE
-import org.fdroid.index.v1.IndexV1StreamReceiver
-import org.fdroid.index.v2.AntiFeatureV2
-import org.fdroid.index.v2.CategoryV2
-import org.fdroid.index.v2.MetadataV2
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.index.v2.ReleaseChannelV2
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.CompatibilityChecker
+import com.freetime.freedroid.index.IndexFormatVersion.ONE
+import com.freetime.freedroid.index.v1.IndexV1StreamReceiver
+import com.freetime.freedroid.index.v2.AntiFeatureV2
+import com.freetime.freedroid.index.v2.CategoryV2
+import com.freetime.freedroid.index.v2.MetadataV2
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.v2.ReleaseChannelV2
+import com.freetime.freedroid.index.v2.RepoV2
 
 /**
  * Note that this class expects that its [receive] method with [RepoV2] gets called first.

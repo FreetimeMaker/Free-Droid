@@ -10,16 +10,16 @@ import kotlinx.serialization.encoding.Encoder
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonDecoder
 import kotlinx.serialization.json.decodeFromStream
-import org.fdroid.index.DEFAULT_LOCALE
-import org.fdroid.index.IndexParser
-import org.fdroid.index.RELEASE_CHANNEL_BETA
-import org.fdroid.index.getV1ReleaseChannels
-import org.fdroid.index.mapInto
-import org.fdroid.index.mapValuesNotNull
-import org.fdroid.index.v2.AntiFeatureV2
-import org.fdroid.index.v2.CategoryV2
-import org.fdroid.index.v2.LocalizedTextV2
-import org.fdroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.DEFAULT_LOCALE
+import com.freetime.freedroid.index.IndexParser
+import com.freetime.freedroid.index.RELEASE_CHANNEL_BETA
+import com.freetime.freedroid.index.getV1ReleaseChannels
+import com.freetime.freedroid.index.mapInto
+import com.freetime.freedroid.index.mapValuesNotNull
+import com.freetime.freedroid.index.v2.AntiFeatureV2
+import com.freetime.freedroid.index.v2.CategoryV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.v2.PackageVersionV2
 import java.io.InputStream
 
 /**

@@ -4,8 +4,8 @@ import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.jsonObject
-import org.fdroid.index.IndexParser
-import org.fdroid.index.ASSET_PATH
+import com.freetime.freedroid.index.IndexParser
+import com.freetime.freedroid.index.ASSET_PATH
 import org.junit.Test
 import java.io.ByteArrayInputStream
 import java.io.File

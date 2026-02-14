@@ -7,20 +7,20 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Ignore
 import androidx.room.Relation
-import org.fdroid.LocaleChooser.getBestLocale
-import org.fdroid.database.VersionedStringType.PERMISSION
-import org.fdroid.database.VersionedStringType.PERMISSION_SDK_23
-import org.fdroid.index.v2.ANTI_FEATURE_KNOWN_VULNERABILITY
-import org.fdroid.index.v2.FileV1
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.LocalizedTextV2
-import org.fdroid.index.v2.ManifestV2
-import org.fdroid.index.v2.PackageManifest
-import org.fdroid.index.v2.PackageVersion
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.index.v2.PermissionV2
-import org.fdroid.index.v2.SignerV2
-import org.fdroid.index.v2.UsesSdkV2
+import com.freetime.freedroid.LocaleChooser.getBestLocale
+import com.freetime.freedroid.database.VersionedStringType.PERMISSION
+import com.freetime.freedroid.database.VersionedStringType.PERMISSION_SDK_23
+import com.freetime.freedroid.index.v2.ANTI_FEATURE_KNOWN_VULNERABILITY
+import com.freetime.freedroid.index.v2.FileV1
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.v2.ManifestV2
+import com.freetime.freedroid.index.v2.PackageManifest
+import com.freetime.freedroid.index.v2.PackageVersion
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.v2.PermissionV2
+import com.freetime.freedroid.index.v2.SignerV2
+import com.freetime.freedroid.index.v2.UsesSdkV2
 
 /**
  * A database table entity representing the version of an [App]

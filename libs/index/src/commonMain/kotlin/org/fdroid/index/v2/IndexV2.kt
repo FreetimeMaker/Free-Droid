@@ -4,8 +4,8 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
-import org.fdroid.IndexFile
-import org.fdroid.index.IndexParser.json
+import com.freetime.freedroid.IndexFile
+import com.freetime.freedroid.index.IndexParser.json
 
 @Serializable
 public data class Entry(

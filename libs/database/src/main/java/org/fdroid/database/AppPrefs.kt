@@ -3,7 +3,7 @@ package org.fdroid.database
 import androidx.room.DatabaseView
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import org.fdroid.PackagePreference
+import com.freetime.freedroid.PackagePreference
 
 /**
  * User-defined preferences related to [App]s that get stored in the database,

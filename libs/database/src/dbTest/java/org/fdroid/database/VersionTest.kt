@@ -1,12 +1,12 @@
 package org.fdroid.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.fdroid.database.TestUtils.getOrFail
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.test.TestAppUtils.getRandomMetadataV2
-import org.fdroid.test.TestRepoUtils.getRandomRepo
-import org.fdroid.test.TestUtils.getRandomString
-import org.fdroid.test.TestVersionUtils.getRandomPackageVersionV2
+import com.freetime.freedroid.database.TestUtils.getOrFail
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.test.TestAppUtils.getRandomMetadataV2
+import com.freetime.freedroid.test.TestRepoUtils.getRandomRepo
+import com.freetime.freedroid.test.TestUtils.getRandomString
+import com.freetime.freedroid.test.TestVersionUtils.getRandomPackageVersionV2
 import org.junit.Test
 import org.junit.runner.RunWith
 import kotlin.random.Random

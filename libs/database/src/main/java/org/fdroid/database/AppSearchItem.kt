@@ -4,9 +4,9 @@ import androidx.core.os.LocaleListCompat
 import androidx.room.ColumnInfo
 import androidx.room.Ignore
 import androidx.room.Relation
-import org.fdroid.LocaleChooser.getBestLocale
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.LocaleChooser.getBestLocale
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import kotlin.math.min

@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.pm.ApplicationInfo.FLAG_SYSTEM
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.fdroid.index.IndexParser
-import org.fdroid.test.TestDataMinV1
+import com.freetime.freedroid.index.IndexParser
+import com.freetime.freedroid.test.TestDataMinV1
 import org.junit.Rule
 import org.junit.rules.TemporaryFolder
 import org.junit.runner.RunWith

@@ -1,6 +1,6 @@
 package org.fdroid.download.glide
 
-import org.fdroid.fdroid.isMatching
+import com.freetime.freedroid.fdroid.isMatching
 import java.io.IOException
 import java.io.InputStream
 import java.security.DigestInputStream

@@ -5,10 +5,10 @@ import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.content.pm.PackageManager.GET_SIGNATURES
 import androidx.core.content.pm.PackageInfoCompat.getLongVersionCode
-import org.fdroid.CompatibilityChecker
-import org.fdroid.CompatibilityCheckerImpl
-import org.fdroid.PackagePreference
-import org.fdroid.UpdateChecker
+import com.freetime.freedroid.CompatibilityChecker
+import com.freetime.freedroid.CompatibilityCheckerImpl
+import com.freetime.freedroid.PackagePreference
+import com.freetime.freedroid.UpdateChecker
 
 @Deprecated("Use DbAppChecker instead")
 public class DbUpdateChecker @JvmOverloads constructor(

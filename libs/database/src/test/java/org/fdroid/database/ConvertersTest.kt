@@ -1,8 +1,8 @@
 package org.fdroid.database
 
-import org.fdroid.test.TestRepoUtils.getRandomLocalizedFileV2
-import org.fdroid.test.TestUtils.getRandomList
-import org.fdroid.test.TestUtils.getRandomString
+import com.freetime.freedroid.test.TestRepoUtils.getRandomLocalizedFileV2
+import com.freetime.freedroid.test.TestUtils.getRandomList
+import com.freetime.freedroid.test.TestUtils.getRandomString
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull

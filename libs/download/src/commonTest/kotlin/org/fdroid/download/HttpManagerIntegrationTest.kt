@@ -3,8 +3,8 @@ package org.fdroid.download
 import io.ktor.client.engine.ProxyBuilder
 import io.ktor.http.Url
 import kotlinx.io.IOException
-import org.fdroid.getRandomString
-import org.fdroid.runSuspend
+import com.freetime.freedroid.getRandomString
+import com.freetime.freedroid.runSuspend
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith

@@ -2,9 +2,9 @@ package org.fdroid.index
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.decodeFromStream
-import org.fdroid.index.v1.IndexV1
-import org.fdroid.index.v2.Entry
-import org.fdroid.index.v2.IndexV2
+import com.freetime.freedroid.index.v1.IndexV1
+import com.freetime.freedroid.index.v2.Entry
+import com.freetime.freedroid.index.v2.IndexV2
 import java.io.InputStream
 
 @OptIn(ExperimentalSerializationApi::class)

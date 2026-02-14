@@ -9,17 +9,17 @@ import androidx.room.ForeignKey
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 import androidx.room.Relation
-import org.fdroid.LocaleChooser.getBestLocale
-import org.fdroid.index.IndexFormatVersion
-import org.fdroid.index.IndexUtils.getFingerprint
-import org.fdroid.index.v2.AntiFeatureV2
-import org.fdroid.index.v2.CategoryV2
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.LocalizedFileV2
-import org.fdroid.index.v2.LocalizedTextV2
-import org.fdroid.index.v2.MirrorV2
-import org.fdroid.index.v2.ReleaseChannelV2
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.LocaleChooser.getBestLocale
+import com.freetime.freedroid.index.IndexFormatVersion
+import com.freetime.freedroid.index.IndexUtils.getFingerprint
+import com.freetime.freedroid.index.v2.AntiFeatureV2
+import com.freetime.freedroid.index.v2.CategoryV2
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.LocalizedFileV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.v2.MirrorV2
+import com.freetime.freedroid.index.v2.ReleaseChannelV2
+import com.freetime.freedroid.index.v2.RepoV2
 import java.util.concurrent.TimeUnit
 
 private const val TAG = "Repository"

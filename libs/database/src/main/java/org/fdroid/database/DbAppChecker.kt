@@ -5,10 +5,10 @@ import android.content.pm.ApplicationInfo.FLAG_SYSTEM
 import android.content.pm.PackageInfo
 import android.os.Build.VERSION.SDK_INT
 import androidx.core.content.pm.PackageInfoCompat.getLongVersionCode
-import org.fdroid.CompatibilityChecker
-import org.fdroid.CompatibilityCheckerImpl
-import org.fdroid.UpdateChecker
-import org.fdroid.index.IndexUtils.getPackageSigner
+import com.freetime.freedroid.CompatibilityChecker
+import com.freetime.freedroid.CompatibilityCheckerImpl
+import com.freetime.freedroid.UpdateChecker
+import com.freetime.freedroid.index.IndexUtils.getPackageSigner
 import java.util.concurrent.TimeUnit
 
 public class DbAppChecker(

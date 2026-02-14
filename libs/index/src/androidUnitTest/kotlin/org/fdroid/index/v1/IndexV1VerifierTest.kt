@@ -1,9 +1,9 @@
 package org.fdroid.index.v1
 
-import org.fdroid.index.SigningException
-import org.fdroid.test.VerifierConstants.CERTIFICATE
-import org.fdroid.test.VerifierConstants.FINGERPRINT
-import org.fdroid.test.VerifierConstants.VERIFICATION_DIR
+import com.freetime.freedroid.index.SigningException
+import com.freetime.freedroid.test.VerifierConstants.CERTIFICATE
+import com.freetime.freedroid.test.VerifierConstants.FINGERPRINT
+import com.freetime.freedroid.test.VerifierConstants.VERIFICATION_DIR
 import org.junit.Test
 import java.io.File
 import kotlin.test.assertEquals

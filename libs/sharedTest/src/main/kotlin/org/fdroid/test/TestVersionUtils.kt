@@ -1,18 +1,18 @@
 package org.fdroid.test
 
-import org.fdroid.index.v2.FeatureV2
-import org.fdroid.index.v2.FileV1
-import org.fdroid.index.v2.ManifestV2
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.index.v2.PermissionV2
-import org.fdroid.index.v2.SignerV2
-import org.fdroid.index.v2.UsesSdkV2
-import org.fdroid.test.TestRepoUtils.getRandomFileV2
-import org.fdroid.test.TestRepoUtils.getRandomLocalizedTextV2
-import org.fdroid.test.TestUtils.getRandomList
-import org.fdroid.test.TestUtils.getRandomMap
-import org.fdroid.test.TestUtils.getRandomString
-import org.fdroid.test.TestUtils.orNull
+import com.freetime.freedroid.index.v2.FeatureV2
+import com.freetime.freedroid.index.v2.FileV1
+import com.freetime.freedroid.index.v2.ManifestV2
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.v2.PermissionV2
+import com.freetime.freedroid.index.v2.SignerV2
+import com.freetime.freedroid.index.v2.UsesSdkV2
+import com.freetime.freedroid.test.TestRepoUtils.getRandomFileV2
+import com.freetime.freedroid.test.TestRepoUtils.getRandomLocalizedTextV2
+import com.freetime.freedroid.test.TestUtils.getRandomList
+import com.freetime.freedroid.test.TestUtils.getRandomMap
+import com.freetime.freedroid.test.TestUtils.getRandomString
+import com.freetime.freedroid.test.TestUtils.orNull
 import kotlin.random.Random
 
 object TestVersionUtils {

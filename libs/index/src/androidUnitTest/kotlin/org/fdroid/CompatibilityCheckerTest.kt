@@ -4,7 +4,7 @@ import android.content.pm.FeatureInfo
 import android.content.pm.PackageManager
 import io.mockk.every
 import io.mockk.mockk
-import org.fdroid.index.v2.PackageManifest
+import com.freetime.freedroid.index.v2.PackageManifest
 import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue

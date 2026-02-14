@@ -2,11 +2,11 @@ package org.fdroid.index.v2
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.SerializationException
-import org.fdroid.index.ASSET_PATH
-import org.fdroid.test.TestDataEmptyV2
-import org.fdroid.test.TestDataMaxV2
-import org.fdroid.test.TestDataMidV2
-import org.fdroid.test.TestDataMinV2
+import com.freetime.freedroid.index.ASSET_PATH
+import com.freetime.freedroid.test.TestDataEmptyV2
+import com.freetime.freedroid.test.TestDataMaxV2
+import com.freetime.freedroid.test.TestDataMidV2
+import com.freetime.freedroid.test.TestDataMinV2
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TemporaryFolder

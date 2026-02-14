@@ -4,7 +4,7 @@ import android.os.Build
 import androidx.core.os.LocaleListCompat
 import androidx.core.os.LocaleListCompat.getEmptyLocaleList
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.fdroid.LocaleChooser.getBestLocale
+import com.freetime.freedroid.LocaleChooser.getBestLocale
 import org.junit.Assume.assumeTrue
 import org.junit.Before
 import org.junit.Test

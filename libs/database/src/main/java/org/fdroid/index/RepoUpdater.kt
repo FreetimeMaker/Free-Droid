@@ -1,12 +1,12 @@
 package org.fdroid.index
 
 import mu.KotlinLogging
-import org.fdroid.CompatibilityChecker
-import org.fdroid.database.FDroidDatabase
-import org.fdroid.database.Repository
-import org.fdroid.download.DownloaderFactory
-import org.fdroid.index.v1.IndexV1Updater
-import org.fdroid.index.v2.IndexV2Updater
+import com.freetime.freedroid.CompatibilityChecker
+import com.freetime.freedroid.database.FDroidDatabase
+import com.freetime.freedroid.database.Repository
+import com.freetime.freedroid.download.DownloaderFactory
+import com.freetime.freedroid.index.v1.IndexV1Updater
+import com.freetime.freedroid.index.v2.IndexV2Updater
 import java.io.File
 import java.io.FileNotFoundException
 

@@ -2,11 +2,11 @@ package org.fdroid.database
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import org.fdroid.index.v2.FeatureV2
-import org.fdroid.index.v2.ManifestV2
-import org.fdroid.index.v2.MetadataV2
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.index.v2.FeatureV2
+import com.freetime.freedroid.index.v2.ManifestV2
+import com.freetime.freedroid.index.v2.MetadataV2
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.v2.RepoV2
 import org.junit.Assert
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit

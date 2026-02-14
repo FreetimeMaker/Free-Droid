@@ -1,8 +1,8 @@
 package org.fdroid.index
 
-import org.fdroid.index.IndexUtils.getsig
-import org.fdroid.index.IndexUtils.md5
-import org.fdroid.index.IndexUtils.toHex
+import com.freetime.freedroid.index.IndexUtils.getsig
+import com.freetime.freedroid.index.IndexUtils.md5
+import com.freetime.freedroid.index.IndexUtils.toHex
 import org.junit.Test
 import kotlin.test.assertEquals
 

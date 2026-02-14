@@ -1,1 +1,1 @@
-A modern app management companion with Material Design 3.
+A modern, Material Design 3 powered app store with clean interface and smart app management.

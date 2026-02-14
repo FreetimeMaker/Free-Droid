@@ -2,12 +2,12 @@ package org.fdroid.database
 
 import androidx.core.os.LocaleListCompat
 import kotlinx.serialization.SerializationException
-import org.fdroid.CompatibilityChecker
-import org.fdroid.index.IndexFormatVersion.TWO
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.IndexV2StreamReceiver
-import org.fdroid.index.v2.PackageV2
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.CompatibilityChecker
+import com.freetime.freedroid.index.IndexFormatVersion.TWO
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.IndexV2StreamReceiver
+import com.freetime.freedroid.index.v2.PackageV2
+import com.freetime.freedroid.index.v2.RepoV2
 
 /**
  * Receives a stream of IndexV2 data and stores it in the DB.

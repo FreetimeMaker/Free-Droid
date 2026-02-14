@@ -3,18 +3,18 @@ package org.fdroid.repo
 import android.net.Uri
 import androidx.core.os.LocaleListCompat
 import kotlinx.serialization.SerializationException
-import org.fdroid.database.Repository
-import org.fdroid.download.DownloaderFactory
-import org.fdroid.index.IndexConverter
-import org.fdroid.index.IndexFormatVersion
-import org.fdroid.index.IndexParser
-import org.fdroid.index.RepoUriBuilder
-import org.fdroid.index.SigningException
-import org.fdroid.index.TempFileProvider
-import org.fdroid.index.parseV1
-import org.fdroid.index.v1.IndexV1Verifier
-import org.fdroid.index.v1.SIGNED_FILE_NAME
-import org.fdroid.index.v2.FileV2
+import com.freetime.freedroid.database.Repository
+import com.freetime.freedroid.download.DownloaderFactory
+import com.freetime.freedroid.index.IndexConverter
+import com.freetime.freedroid.index.IndexFormatVersion
+import com.freetime.freedroid.index.IndexParser
+import com.freetime.freedroid.index.RepoUriBuilder
+import com.freetime.freedroid.index.SigningException
+import com.freetime.freedroid.index.TempFileProvider
+import com.freetime.freedroid.index.parseV1
+import com.freetime.freedroid.index.v1.IndexV1Verifier
+import com.freetime.freedroid.index.v1.SIGNED_FILE_NAME
+import com.freetime.freedroid.index.v2.FileV2
 import java.io.File
 
 internal class RepoV1Fetcher(

@@ -2,7 +2,7 @@
 -keepattributes SourceFile,LineNumberTable,Exceptions
 
 # Anything less causes issues like not finding primary constructor in ReflectionDiffer
--keep class org.fdroid.** {*;}
+-keep class com.freetime.freedroid.** {*;}
 
 # Logging
 -keep class ch.qos.logback.classic.android.LogcatAppender

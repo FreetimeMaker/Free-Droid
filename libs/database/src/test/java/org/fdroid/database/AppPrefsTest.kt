@@ -1,6 +1,6 @@
 package org.fdroid.database
 
-import org.fdroid.test.TestUtils.getRandomString
+import com.freetime.freedroid.test.TestUtils.getRandomString
 import org.junit.Test
 import kotlin.random.Random
 import kotlin.test.assertEquals

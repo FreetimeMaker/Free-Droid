@@ -6,8 +6,8 @@ import com.bumptech.glide.load.model.ModelLoader.LoadData
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import com.bumptech.glide.signature.ObjectKey
-import org.fdroid.download.DownloadRequest
-import org.fdroid.download.HttpManager
+import com.freetime.freedroid.download.DownloadRequest
+import com.freetime.freedroid.download.HttpManager
 import java.io.InputStream
 
 public class DownloadRequestLoader(

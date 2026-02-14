@@ -1,13 +1,13 @@
 package org.fdroid.index
 
-import org.fdroid.index.v1.IndexV1
-import org.fdroid.index.v1.Localized
-import org.fdroid.index.v2.AntiFeatureV2
-import org.fdroid.index.v2.CategoryV2
-import org.fdroid.index.v2.IndexV2
-import org.fdroid.index.v2.LocalizedTextV2
-import org.fdroid.index.v2.PackageV2
-import org.fdroid.index.v2.ReleaseChannelV2
+import com.freetime.freedroid.index.v1.IndexV1
+import com.freetime.freedroid.index.v1.Localized
+import com.freetime.freedroid.index.v2.AntiFeatureV2
+import com.freetime.freedroid.index.v2.CategoryV2
+import com.freetime.freedroid.index.v2.IndexV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.v2.PackageV2
+import com.freetime.freedroid.index.v2.ReleaseChannelV2
 
 public const val RELEASE_CHANNEL_BETA: String = "Beta"
 internal const val DEFAULT_LOCALE = "en-US"

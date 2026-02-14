@@ -13,13 +13,13 @@ import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.decodeFromJsonElement
-import org.fdroid.database.VersionedStringType.PERMISSION
-import org.fdroid.database.VersionedStringType.PERMISSION_SDK_23
-import org.fdroid.index.IndexParser.json
-import org.fdroid.index.v2.PackageManifest
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.index.v2.PermissionV2
-import org.fdroid.index.v2.ReflectionDiffer
+import com.freetime.freedroid.database.VersionedStringType.PERMISSION
+import com.freetime.freedroid.database.VersionedStringType.PERMISSION_SDK_23
+import com.freetime.freedroid.index.IndexParser.json
+import com.freetime.freedroid.index.v2.PackageManifest
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.v2.PermissionV2
+import com.freetime.freedroid.index.v2.ReflectionDiffer
 
 public interface VersionDao {
     /**

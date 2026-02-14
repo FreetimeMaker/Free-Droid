@@ -3,10 +3,10 @@ package org.fdroid.database
 import androidx.room.TypeConverter
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
-import org.fdroid.index.IndexParser.json
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.LocalizedFileV2
-import org.fdroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.IndexParser.json
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.LocalizedFileV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
 
 internal object Converters {
 

@@ -1,25 +1,25 @@
 package org.fdroid.index.v2
 
-import org.fdroid.CompatibilityChecker
-import org.fdroid.database.DbV2DiffStreamReceiver
-import org.fdroid.database.DbV2StreamReceiver
-import org.fdroid.database.FDroidDatabase
-import org.fdroid.database.FDroidDatabaseInt
-import org.fdroid.database.Repository
-import org.fdroid.database.RepositoryDaoInt
-import org.fdroid.download.DownloaderFactory
-import org.fdroid.index.IndexFormatVersion
-import org.fdroid.index.IndexFormatVersion.ONE
-import org.fdroid.index.IndexFormatVersion.TWO
-import org.fdroid.index.IndexParser
-import org.fdroid.index.IndexUpdateListener
-import org.fdroid.index.IndexUpdateResult
-import org.fdroid.index.IndexUpdater
-import org.fdroid.index.RepoUriBuilder
-import org.fdroid.index.TempFileProvider
-import org.fdroid.index.defaultRepoUriBuilder
-import org.fdroid.index.parseEntry
-import org.fdroid.index.setIndexUpdateListener
+import com.freetime.freedroid.CompatibilityChecker
+import com.freetime.freedroid.database.DbV2DiffStreamReceiver
+import com.freetime.freedroid.database.DbV2StreamReceiver
+import com.freetime.freedroid.database.FDroidDatabase
+import com.freetime.freedroid.database.FDroidDatabaseInt
+import com.freetime.freedroid.database.Repository
+import com.freetime.freedroid.database.RepositoryDaoInt
+import com.freetime.freedroid.download.DownloaderFactory
+import com.freetime.freedroid.index.IndexFormatVersion
+import com.freetime.freedroid.index.IndexFormatVersion.ONE
+import com.freetime.freedroid.index.IndexFormatVersion.TWO
+import com.freetime.freedroid.index.IndexParser
+import com.freetime.freedroid.index.IndexUpdateListener
+import com.freetime.freedroid.index.IndexUpdateResult
+import com.freetime.freedroid.index.IndexUpdater
+import com.freetime.freedroid.index.RepoUriBuilder
+import com.freetime.freedroid.index.TempFileProvider
+import com.freetime.freedroid.index.defaultRepoUriBuilder
+import com.freetime.freedroid.index.parseEntry
+import com.freetime.freedroid.index.setIndexUpdateListener
 
 public const val SIGNED_FILE_NAME: String = "entry.jar"
 

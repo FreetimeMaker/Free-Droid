@@ -3,8 +3,8 @@ package org.fdroid
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES
 import androidx.core.content.pm.PackageInfoCompat
-import org.fdroid.index.IndexUtils.getPackageSigner
-import org.fdroid.index.v2.PackageVersion
+import com.freetime.freedroid.index.IndexUtils.getPackageSigner
+import com.freetime.freedroid.index.v2.PackageVersion
 
 public interface PackagePreference {
     public val ignoreVersionCodeUpdate: Long

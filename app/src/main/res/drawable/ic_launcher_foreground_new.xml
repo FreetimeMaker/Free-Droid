@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+  <group android:scaleX="0.5"
+      android:scaleY="0.5"
+      android:translateX="12"
+      android:translateY="12">
+    <!-- Modern, clean design inspired by Droid-ify -->
+    <!-- Main circle background -->
+    <path
+        android:pathData="M24,4C12.95,4 4,12.95 4,24C4,35.05 12.95,44 24,44C35.05,44 44,35.05 44,24C44,12.95 35.05,4 24,4z"
+        android:fillColor="#1976D2"
+        android:fillType="nonZero"/>
+    <!-- Modern play/download arrow -->
+    <path
+        android:pathData="M24,12L18,18L20,18L20,30L28,30L28,18L30,18L24,12z"
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"/>
+    <!-- Small accent dot -->
+    <path
+        android:pathData="M32,20C33.1,20 34,21.9 34,24C34,26.1 33.1,28 32,28C30.9,28 29,26.1 29,24C29,21.9 30.9,20 32,20z"
+        android:fillColor="#90CAF9"
+        android:fillType="nonZero"/>
+  </group>
+</vector>

@@ -2,15 +2,15 @@ package org.fdroid.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import kotlinx.serialization.SerializationException
-import org.fdroid.index.IndexParser
-import org.fdroid.index.parseV2
-import org.fdroid.index.v2.IndexV2
-import org.fdroid.index.v2.IndexV2DiffStreamProcessor
-import org.fdroid.test.TestDataMaxV2
-import org.fdroid.test.TestDataMaxV2.PACKAGE_NAME_3
-import org.fdroid.test.TestDataMaxV2.app3
-import org.fdroid.test.TestDataMidV2
-import org.fdroid.test.TestDataMinV2
+import com.freetime.freedroid.index.IndexParser
+import com.freetime.freedroid.index.parseV2
+import com.freetime.freedroid.index.v2.IndexV2
+import com.freetime.freedroid.index.v2.IndexV2DiffStreamProcessor
+import com.freetime.freedroid.test.TestDataMaxV2
+import com.freetime.freedroid.test.TestDataMaxV2.PACKAGE_NAME_3
+import com.freetime.freedroid.test.TestDataMaxV2.app3
+import com.freetime.freedroid.test.TestDataMidV2
+import com.freetime.freedroid.test.TestDataMinV2
 import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith

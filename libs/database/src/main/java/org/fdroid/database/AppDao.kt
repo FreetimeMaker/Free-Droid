@@ -27,17 +27,17 @@ import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.decodeFromJsonElement
-import org.fdroid.LocaleChooser.getBestLocale
-import org.fdroid.database.AppListSortOrder.LAST_UPDATED
-import org.fdroid.database.AppListSortOrder.NAME
-import org.fdroid.database.DbDiffUtils.diffAndUpdateListTable
-import org.fdroid.database.DbDiffUtils.diffAndUpdateTable
-import org.fdroid.index.IndexParser.json
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.LocalizedFileListV2
-import org.fdroid.index.v2.LocalizedFileV2
-import org.fdroid.index.v2.MetadataV2
-import org.fdroid.index.v2.ReflectionDiffer.applyDiff
+import com.freetime.freedroid.LocaleChooser.getBestLocale
+import com.freetime.freedroid.database.AppListSortOrder.LAST_UPDATED
+import com.freetime.freedroid.database.AppListSortOrder.NAME
+import com.freetime.freedroid.database.DbDiffUtils.diffAndUpdateListTable
+import com.freetime.freedroid.database.DbDiffUtils.diffAndUpdateTable
+import com.freetime.freedroid.index.IndexParser.json
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.LocalizedFileListV2
+import com.freetime.freedroid.index.v2.LocalizedFileV2
+import com.freetime.freedroid.index.v2.MetadataV2
+import com.freetime.freedroid.index.v2.ReflectionDiffer.applyDiff
 import java.util.concurrent.TimeUnit
 
 public interface AppDao {

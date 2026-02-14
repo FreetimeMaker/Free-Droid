@@ -5,9 +5,9 @@ import io.ktor.client.engine.mock.respondError
 import io.ktor.client.engine.mock.respondOk
 import io.ktor.client.engine.mock.toByteArray
 import io.ktor.http.HttpStatusCode.Companion.BadRequest
-import org.fdroid.get
-import org.fdroid.getRandomString
-import org.fdroid.runSuspend
+import com.freetime.freedroid.get
+import com.freetime.freedroid.getRandomString
+import com.freetime.freedroid.runSuspend
 import java.io.IOException
 import kotlin.test.Test
 import kotlin.test.assertEquals

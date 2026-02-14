@@ -3,8 +3,8 @@ package org.fdroid.download
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.io.IOException
-import org.fdroid.getIndexFile
-import org.fdroid.runSuspend
+import com.freetime.freedroid.getIndexFile
+import com.freetime.freedroid.runSuspend
 import java.net.SocketTimeoutException
 import kotlin.random.Random
 import kotlin.test.Test

@@ -15,15 +15,15 @@ import kotlinx.serialization.json.JsonDecoder
 import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonPrimitive
-import org.fdroid.index.v2.FeatureV2
-import org.fdroid.index.v2.FileV1
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.LocalizedTextV2
-import org.fdroid.index.v2.ManifestV2
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.index.v2.PermissionV2
-import org.fdroid.index.v2.SignerV2
-import org.fdroid.index.v2.UsesSdkV2
+import com.freetime.freedroid.index.v2.FeatureV2
+import com.freetime.freedroid.index.v2.FileV1
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.v2.ManifestV2
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.v2.PermissionV2
+import com.freetime.freedroid.index.v2.SignerV2
+import com.freetime.freedroid.index.v2.UsesSdkV2
 
 @Serializable
 public data class PackageV1(

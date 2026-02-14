@@ -2,12 +2,12 @@ package org.fdroid.index.v2
 
 import com.goncalossilva.resources.Resource
 import kotlinx.serialization.SerializationException
-import org.fdroid.index.IndexParser.parseV2
-import org.fdroid.index.ASSET_PATH
-import org.fdroid.test.TestDataEmptyV2
-import org.fdroid.test.TestDataMaxV2
-import org.fdroid.test.TestDataMidV2
-import org.fdroid.test.TestDataMinV2
+import com.freetime.freedroid.index.IndexParser.parseV2
+import com.freetime.freedroid.index.ASSET_PATH
+import com.freetime.freedroid.test.TestDataEmptyV2
+import com.freetime.freedroid.test.TestDataMaxV2
+import com.freetime.freedroid.test.TestDataMidV2
+import com.freetime.freedroid.test.TestDataMinV2
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

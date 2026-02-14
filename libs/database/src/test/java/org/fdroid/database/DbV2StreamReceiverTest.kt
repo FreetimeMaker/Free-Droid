@@ -4,9 +4,9 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.serialization.SerializationException
-import org.fdroid.CompatibilityChecker
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.CompatibilityChecker
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.RepoV2
 import org.junit.Test
 import org.junit.runner.RunWith
 import kotlin.test.assertFailsWith

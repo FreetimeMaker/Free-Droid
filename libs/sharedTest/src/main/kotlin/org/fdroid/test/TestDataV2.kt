@@ -1,24 +1,24 @@
 package org.fdroid.test
 
-import org.fdroid.index.RELEASE_CHANNEL_BETA
-import org.fdroid.index.getV1ReleaseChannels
-import org.fdroid.index.v2.AntiFeatureV2
-import org.fdroid.index.v2.CategoryV2
-import org.fdroid.index.v2.FeatureV2
-import org.fdroid.index.v2.FileV1
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.IndexV2
-import org.fdroid.index.v2.ManifestV2
-import org.fdroid.index.v2.MetadataV2
-import org.fdroid.index.v2.MirrorV2
-import org.fdroid.index.v2.PackageV2
-import org.fdroid.index.v2.PackageVersionV2
-import org.fdroid.index.v2.PermissionV2
-import org.fdroid.index.v2.ReleaseChannelV2
-import org.fdroid.index.v2.RepoV2
-import org.fdroid.index.v2.Screenshots
-import org.fdroid.index.v2.SignerV2
-import org.fdroid.index.v2.UsesSdkV2
+import com.freetime.freedroid.index.RELEASE_CHANNEL_BETA
+import com.freetime.freedroid.index.getV1ReleaseChannels
+import com.freetime.freedroid.index.v2.AntiFeatureV2
+import com.freetime.freedroid.index.v2.CategoryV2
+import com.freetime.freedroid.index.v2.FeatureV2
+import com.freetime.freedroid.index.v2.FileV1
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.IndexV2
+import com.freetime.freedroid.index.v2.ManifestV2
+import com.freetime.freedroid.index.v2.MetadataV2
+import com.freetime.freedroid.index.v2.MirrorV2
+import com.freetime.freedroid.index.v2.PackageV2
+import com.freetime.freedroid.index.v2.PackageVersionV2
+import com.freetime.freedroid.index.v2.PermissionV2
+import com.freetime.freedroid.index.v2.ReleaseChannelV2
+import com.freetime.freedroid.index.v2.RepoV2
+import com.freetime.freedroid.index.v2.Screenshots
+import com.freetime.freedroid.index.v2.SignerV2
+import com.freetime.freedroid.index.v2.UsesSdkV2
 
 const val LOCALE = "en-US"
 

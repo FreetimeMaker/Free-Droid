@@ -1,14 +1,14 @@
 package org.fdroid.index.v1
 
 import kotlinx.serialization.Serializable
-import org.fdroid.index.DEFAULT_LOCALE
-import org.fdroid.index.mapValuesNotNull
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.LocalizedFileListV2
-import org.fdroid.index.v2.LocalizedFileV2
-import org.fdroid.index.v2.LocalizedTextV2
-import org.fdroid.index.v2.MetadataV2
-import org.fdroid.index.v2.Screenshots
+import com.freetime.freedroid.index.DEFAULT_LOCALE
+import com.freetime.freedroid.index.mapValuesNotNull
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.LocalizedFileListV2
+import com.freetime.freedroid.index.v2.LocalizedFileV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.v2.MetadataV2
+import com.freetime.freedroid.index.v2.Screenshots
 
 @Serializable
 public data class AppV1(

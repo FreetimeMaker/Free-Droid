@@ -1,10 +1,10 @@
 package org.fdroid.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.fdroid.database.TestUtils.getOrFail
-import org.fdroid.database.TestUtils.toMetadataV2
-import org.fdroid.test.TestRepoUtils.getRandomRepo
-import org.fdroid.test.TestUtils.sort
+import com.freetime.freedroid.database.TestUtils.getOrFail
+import com.freetime.freedroid.database.TestUtils.toMetadataV2
+import com.freetime.freedroid.test.TestRepoUtils.getRandomRepo
+import com.freetime.freedroid.test.TestUtils.sort
 import org.junit.Test
 import org.junit.runner.RunWith
 import kotlin.test.assertEquals

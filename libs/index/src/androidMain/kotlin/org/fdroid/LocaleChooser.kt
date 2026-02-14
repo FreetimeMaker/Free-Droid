@@ -2,9 +2,9 @@ package org.fdroid
 
 import androidx.core.os.LocaleListCompat
 import androidx.core.text.ICUCompat
-import org.fdroid.index.v2.LocalizedFileListV2
-import org.fdroid.index.v2.LocalizedFileV2
-import org.fdroid.index.v2.LocalizedTextV2
+import com.freetime.freedroid.index.v2.LocalizedFileListV2
+import com.freetime.freedroid.index.v2.LocalizedFileV2
+import com.freetime.freedroid.index.v2.LocalizedTextV2
 import java.util.Locale
 
 public object LocaleChooser {

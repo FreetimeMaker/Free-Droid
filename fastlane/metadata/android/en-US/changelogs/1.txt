@@ -1,1 +1,8 @@
-- Added App to F-Droid
+- 🎉 Welcome to Free-Droid! 
+• Modern Material Design 3 interface
+• Clean, clutterfree design inspired by Droid-ify
+• Updated package name from org.fdroid to com.freetime.freedroid
+• Removed basic/full variants for simplified experience
+• Enhanced color scheme with modern theming
+• Improved navigation and user experience
+• New app icons and visual identity

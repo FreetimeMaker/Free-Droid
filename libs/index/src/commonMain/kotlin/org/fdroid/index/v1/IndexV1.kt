@@ -2,13 +2,13 @@ package org.fdroid.index.v1
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.fdroid.index.DEFAULT_LOCALE
-import org.fdroid.index.v2.AntiFeatureV2
-import org.fdroid.index.v2.CategoryV2
-import org.fdroid.index.v2.FileV2
-import org.fdroid.index.v2.MirrorV2
-import org.fdroid.index.v2.ReleaseChannelV2
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.index.DEFAULT_LOCALE
+import com.freetime.freedroid.index.v2.AntiFeatureV2
+import com.freetime.freedroid.index.v2.CategoryV2
+import com.freetime.freedroid.index.v2.FileV2
+import com.freetime.freedroid.index.v2.MirrorV2
+import com.freetime.freedroid.index.v2.ReleaseChannelV2
+import com.freetime.freedroid.index.v2.RepoV2
 
 @Serializable
 public data class IndexV1(

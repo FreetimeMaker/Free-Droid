@@ -1,20 +1,20 @@
 package org.fdroid.repo
 
 import androidx.core.os.LocaleListCompat
-import org.fdroid.LocaleChooser.getBestLocale
-import org.fdroid.database.AppOverviewItem
-import org.fdroid.database.LocalizedIcon
-import org.fdroid.database.Repository
-import org.fdroid.database.RepositoryPreferences
-import org.fdroid.database.toCoreRepository
-import org.fdroid.database.toMirrors
-import org.fdroid.database.toRepoAntiFeatures
-import org.fdroid.database.toRepoCategories
-import org.fdroid.database.toRepoReleaseChannel
-import org.fdroid.index.IndexFormatVersion
-import org.fdroid.index.v2.IndexV2StreamReceiver
-import org.fdroid.index.v2.PackageV2
-import org.fdroid.index.v2.RepoV2
+import com.freetime.freedroid.LocaleChooser.getBestLocale
+import com.freetime.freedroid.database.AppOverviewItem
+import com.freetime.freedroid.database.LocalizedIcon
+import com.freetime.freedroid.database.Repository
+import com.freetime.freedroid.database.RepositoryPreferences
+import com.freetime.freedroid.database.toCoreRepository
+import com.freetime.freedroid.database.toMirrors
+import com.freetime.freedroid.database.toRepoAntiFeatures
+import com.freetime.freedroid.database.toRepoCategories
+import com.freetime.freedroid.database.toRepoReleaseChannel
+import com.freetime.freedroid.index.IndexFormatVersion
+import com.freetime.freedroid.index.v2.IndexV2StreamReceiver
+import com.freetime.freedroid.index.v2.PackageV2
+import com.freetime.freedroid.index.v2.RepoV2
 
 internal open class RepoV2StreamReceiver(
     private val receiver: RepoPreviewReceiver,

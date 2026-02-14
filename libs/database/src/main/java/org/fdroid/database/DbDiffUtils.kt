@@ -6,7 +6,7 @@ import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
-import org.fdroid.index.v2.ReflectionDiffer
+import com.freetime.freedroid.index.v2.ReflectionDiffer
 
 internal object DbDiffUtils {
 

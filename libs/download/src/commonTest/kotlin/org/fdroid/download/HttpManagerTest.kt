@@ -26,11 +26,11 @@ import io.ktor.http.Url
 import io.ktor.http.headersOf
 import kotlinx.io.Buffer
 import kotlinx.io.readByteArray
-import org.fdroid.TestByteReadChannel
-import org.fdroid.get
-import org.fdroid.getByteRangeFrom
-import org.fdroid.getRandomString
-import org.fdroid.runSuspend
+import com.freetime.freedroid.TestByteReadChannel
+import com.freetime.freedroid.get
+import com.freetime.freedroid.getByteRangeFrom
+import com.freetime.freedroid.getRandomString
+import com.freetime.freedroid.runSuspend
 import org.junit.Ignore
 import kotlin.random.Random
 import kotlin.test.Test

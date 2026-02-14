@@ -1,7 +1,7 @@
 package org.fdroid.index
 
-import org.fdroid.index.IndexUtils.sha256
-import org.fdroid.index.IndexUtils.toHex
+import com.freetime.freedroid.index.IndexUtils.sha256
+import com.freetime.freedroid.index.IndexUtils.toHex
 import java.io.File
 import java.io.IOException
 import java.io.InputStream
