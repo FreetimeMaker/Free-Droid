@@ -86,7 +86,7 @@ mockitoCore = "5.1.1"
 hamcrest = "2.2"
 goncalossilvaResources = "0.2.1"
 turbine = "1.2.1"
-json = "20220320"
+json = "20251224"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
