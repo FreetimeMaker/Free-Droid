@@ -25,7 +25,7 @@ import io.ktor.client.plugins.ResponseException
 import io.ktor.http.HttpStatusCode.Companion.NotFound
 import kotlinx.coroutines.runBlocking
 import mu.KotlinLogging
-import com.freetime.freedroid.fdroid.toHex
+import org.fdroid.fdroid.toHex
 import java.io.File
 import java.io.IOException
 import java.io.InputStream

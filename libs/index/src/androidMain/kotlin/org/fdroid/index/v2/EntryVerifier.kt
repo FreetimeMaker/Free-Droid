@@ -1,7 +1,7 @@
 package org.fdroid.index.v2
 
-import com.freetime.freedroid.index.JarIndexVerifier
-import com.freetime.freedroid.index.SigningException
+import org.fdroid.index.JarIndexVerifier
+import org.fdroid.index.SigningException
 import java.io.File
 import java.util.jar.Attributes
 

@@ -1,62 +1,70 @@
 package org.fdroid.database
 
 import androidx.room.TypeConverter
-import kotlinx.serialization.builtins.MapSerializer
-import kotlinx.serialization.builtins.serializer
-import com.freetime.freedroid.index.IndexParser.json
-import com.freetime.freedroid.index.v2.FileV2
-import com.freetime.freedroid.index.v2.LocalizedFileV2
-import com.freetime.freedroid.index.v2.LocalizedTextV2
+import org.fdroid.index.v2.FileV2
+import org.fdroid.index.v2.LocalizedFileV2
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
 
-internal object Converters {
-
-    private val localizedTextV2Serializer = MapSerializer(String.serializer(), String.serializer())
-    private val localizedFileV2Serializer = MapSerializer(String.serializer(), FileV2.serializer())
-    private val mapOfLocalizedTextV2Serializer =
-        MapSerializer(String.serializer(), localizedTextV2Serializer)
+public object Converters {
 
     @TypeConverter
-    fun fromStringToLocalizedTextV2(value: String?): LocalizedTextV2? {
-        return value?.let { json.decodeFromString(localizedTextV2Serializer, it) }
+     public fun listStringToString(list: List<String>?): String? {
+        return if (list.isNullOrEmpty()) null else Json.encodeToString(list)
     }
 
     @TypeConverter
-    fun localizedTextV2toString(text: LocalizedTextV2?): String? {
-        return text?.let { json.encodeToString(localizedTextV2Serializer, it) }
+     public fun fromStringToListString(string: String?): List<String>? {
+        return if (string.isNullOrEmpty()) emptyList() else Json.decodeFromString(string)
     }
 
     @TypeConverter
-    fun fromStringToLocalizedFileV2(value: String?): LocalizedFileV2? {
-        return value?.let { json.decodeFromString(localizedFileV2Serializer, it) }
+     public fun localizedFileV2toString(file: LocalizedFileV2?): String? {
+        return if (file == null) null else Json.encodeToString(file)
     }
 
     @TypeConverter
-    fun localizedFileV2toString(file: LocalizedFileV2?): String? {
-        return file?.let { json.encodeToString(localizedFileV2Serializer, it) }
+     public fun fromStringToLocalizedFileV2(string: String?): LocalizedFileV2? {
+        return if (string.isNullOrEmpty()) null else Json.decodeFromString(string)
     }
 
     @TypeConverter
-    fun fromStringToMapOfLocalizedTextV2(value: String?): Map<String, LocalizedTextV2>? {
-        return value?.let { json.decodeFromString(mapOfLocalizedTextV2Serializer, it) }
+     public fun fileV2ToString(file: FileV2?): String? {
+        return if (file == null) null else Json.encodeToString(file)
     }
 
     @TypeConverter
-    fun mapOfLocalizedTextV2toString(text: Map<String, LocalizedTextV2>?): String? {
-        return text?.let { json.encodeToString(mapOfLocalizedTextV2Serializer, it) }
+     public fun fromStringToFileV2(string: String?): FileV2? {
+        return if (string.isNullOrEmpty()) null else Json.decodeFromString(string)
     }
 
     @TypeConverter
-    fun fromStringToListString(value: String?): List<String> {
-        return value?.split(',')?.filter { it.isNotEmpty() } ?: emptyList()
+     public fun appMetadataToString(metadata: AppMetadata?): String? {
+        return if (metadata == null) null else Json.encodeToString(metadata)
     }
 
     @TypeConverter
-    fun listStringToString(text: List<String>?): String? {
-        if (text.isNullOrEmpty()) return null
-        return text.joinToString(
-            prefix = ",",
-            separator = ",",
-            postfix = ",",
-        ) { it.replace(',', '_') }
+     public fun fromStringToAppMetadata(string: String?): AppMetadata? {
+        return if (string.isNullOrEmpty()) null else Json.decodeFromString(string)
+    }
+
+    @TypeConverter
+     public fun mapStringToString(map: Map<String, String>?): String? {
+        return if (map.isNullOrEmpty()) null else Json.encodeToString(map)
+    }
+
+    @TypeConverter
+     public fun fromStringToMapStringString(string: String?): Map<String, String>? {
+        return if (string.isNullOrEmpty()) emptyMap() else Json.decodeFromString(string)
+    }
+
+    @TypeConverter
+     public fun mapStringToLocalizedFileV2List(map: Map<String, List<LocalizedFileV2>>?): String? {
+        return if (map.isNullOrEmpty()) null else Json.encodeToString(map)
+    }
+
+    @TypeConverter
+     public fun fromStringToMapStringLocalizedFileV2List(string: String?): Map<String, List<LocalizedFileV2>>? {
+        return if (string.isNullOrEmpty()) emptyMap() else Json.decodeFromString(string)
     }
 }

@@ -2,8 +2,8 @@ package org.fdroid.index.v2
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import com.freetime.freedroid.IndexFile
-import com.freetime.freedroid.index.IndexParser
+import org.fdroid.IndexFile
+import org.fdroid.index.IndexParser
 
 @Serializable
 public data class PackageV2(

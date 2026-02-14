@@ -3,7 +3,7 @@ package org.fdroid
 import android.content.pm.PackageManager
 import android.os.Build.SUPPORTED_ABIS
 import android.os.Build.VERSION.SDK_INT
-import com.freetime.freedroid.index.v2.PackageManifest
+import org.fdroid.index.v2.PackageManifest
 
 public fun interface CompatibilityChecker {
     public fun isCompatible(manifest: PackageManifest): Boolean

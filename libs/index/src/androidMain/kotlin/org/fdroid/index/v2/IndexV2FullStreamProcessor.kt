@@ -10,7 +10,7 @@ import kotlinx.serialization.encoding.Encoder
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonDecoder
 import kotlinx.serialization.json.decodeFromStream
-import com.freetime.freedroid.index.IndexParser
+import org.fdroid.index.IndexParser
 import java.io.InputStream
 
 @OptIn(ExperimentalSerializationApi::class)

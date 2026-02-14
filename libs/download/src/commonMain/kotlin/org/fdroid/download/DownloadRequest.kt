@@ -1,7 +1,7 @@
 package org.fdroid.download
 
 import io.ktor.client.engine.ProxyConfig
-import com.freetime.freedroid.IndexFile
+import org.fdroid.IndexFile
 
 public data class DownloadRequest @JvmOverloads constructor(
     val indexFile: IndexFile,

@@ -9,10 +9,10 @@ import android.util.Log
 import androidx.core.content.pm.PackageInfoCompat
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.encodeToStream
-import com.freetime.freedroid.index.IndexCreator
-import com.freetime.freedroid.index.IndexParser
-import com.freetime.freedroid.index.IndexUtils.getPackageSigner
-import com.freetime.freedroid.index.IndexUtils.getsig
+import org.fdroid.index.IndexCreator
+import org.fdroid.index.IndexParser
+import org.fdroid.index.IndexUtils.getPackageSigner
+import org.fdroid.index.IndexUtils.getsig
 import java.io.File
 import java.io.IOException
 

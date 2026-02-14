@@ -9,7 +9,7 @@ import android.graphics.Canvas
 import android.graphics.drawable.BitmapDrawable
 import android.system.Os.symlink
 import androidx.core.content.pm.PackageInfoCompat
-import com.freetime.freedroid.index.IndexUtils.toHex
+import org.fdroid.index.IndexUtils.toHex
 import java.io.File
 import java.io.IOException
 import java.security.MessageDigest

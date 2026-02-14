@@ -1,11 +1,11 @@
 package org.fdroid.index.v1
 
-import com.freetime.freedroid.index.v2.AntiFeatureV2
-import com.freetime.freedroid.index.v2.CategoryV2
-import com.freetime.freedroid.index.v2.MetadataV2
-import com.freetime.freedroid.index.v2.PackageVersionV2
-import com.freetime.freedroid.index.v2.ReleaseChannelV2
-import com.freetime.freedroid.index.v2.RepoV2
+import org.fdroid.index.v2.AntiFeatureV2
+import org.fdroid.index.v2.CategoryV2
+import org.fdroid.index.v2.MetadataV2
+import org.fdroid.index.v2.PackageVersionV2
+import org.fdroid.index.v2.ReleaseChannelV2
+import org.fdroid.index.v2.RepoV2
 
 @Deprecated("Use IndexV2 instead")
 public interface IndexV1StreamReceiver {
